@@ -1,0 +1,1 @@
+conexão com banco de dados e outros exemplo cors 

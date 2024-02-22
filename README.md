@@ -5,7 +5,7 @@ Desafios do curso de I.A.
 Dependências:
 Faça download dos coomponentes abaixo 
 
-controle de versionamento:
+Controle de versionamento:
 - https://git-scm.com/downloads
 
 Ambiente virtual 

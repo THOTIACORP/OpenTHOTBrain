@@ -1,0 +1,1 @@
+normalmente fica dimencionador de demanda kubernets

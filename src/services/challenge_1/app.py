@@ -1,9 +1,9 @@
-# Solução 1
-
+import os
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
+import numpy as np
 
 # Carregando os dados do arquivo Excel
 def load_data(file_path):
@@ -46,7 +46,8 @@ def visualize_pca(X_pca, data, most_distorted_variable):
     plt.ylabel('Componente Principal 2')
     plt.title('PCA dos Dados')
     plt.legend(loc='upper left', bbox_to_anchor=(1,1))
-    plt.show()
+    plt.savefig('pca_plot.png')  # Salvar o gráfico como uma imagem
+    plt.close()  # Fechar a figura para liberar recursos
 
 # Selecionar as variáveis mais distorcidas
 def top_distorted_variable(data):
@@ -61,8 +62,12 @@ def top_distorted_variable(data):
     
     return most_distorted_variable
 
-# Caminho do arquivo Excel
-file_path = "Equipamentos.xlsx"
+# Diretório base do seu projeto
+base_dir = "src"
+
+# Caminho completo para o arquivo Equipamentos.xlsx
+file_path = os.path.join(base_dir, "services", "challenge_1", "assets", "Equipamentos.xlsx")
+
 
 # Carregar os dados
 data = load_data(file_path)
@@ -80,12 +85,6 @@ X_pca = apply_pca(data.iloc[:, 1:])  # Excluir a primeira coluna (índices de se
 # Visualização dos resultados
 visualize_pca(X_pca, data, most_distorted_variable)  # Não é necessário excluir a primeira coluna (índices de sensor) na visualização
 
-
-
-
-
-#Solução dois
-import numpy as np
 
 data = {
     'V1': [375, 57, 245, 1472, 105, 54, 193, 147, 1102, 720, 253, 685, 488, 198, 360, 1374, 156],
