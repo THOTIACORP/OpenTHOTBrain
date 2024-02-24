@@ -19,6 +19,7 @@ def calculate_correlations(file):
 
     # Converte o gráfico para imagem
     img = BytesIO()
+    plt.close('all')  # Adicionando o fechamento explícito de todas as figuras
     plt.figure()
     sns.heatmap(correlation_matrix, annot=True)
     plt.title('Correalação de Pearson')
@@ -31,6 +32,7 @@ def calculate_correlations(file):
 
     # Converte o gráfico para imagem
     img = BytesIO()
+    plt.close('all')  # Adicionando o fechamento explícito de todas as figuras
     plt.figure()
     sns.heatmap(correlation_matrix1, annot=True)
     plt.title('Correlação de Spearman')
