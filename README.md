@@ -12,7 +12,7 @@ Ambiente virtual
 - https://docs.docker.com/desktop/install/windows-install/
 
 
-Para subir um contêiner Docker que execute um aplicativo Python 3, você precisa seguir alguns passos básicos:
+Para subir um contêiner Docker execute no terminal do projeto:
 
 
 1. **Construa a imagem Docker**: No mesmo diretório do Dockerfile, execute o comando:
@@ -26,7 +26,7 @@ Isso criará uma imagem Docker com o nome especificado.
 3. **Execute o contêiner**: Depois de construir a imagem, você pode executar o contêiner com o comando:
 
 ```bash
-docker run -d versao_um
+docker run -p 5000:5000 versao_um
 ```
 
 Isso iniciará o contêiner em segundo plano.

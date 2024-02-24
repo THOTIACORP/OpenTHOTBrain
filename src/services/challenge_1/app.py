@@ -1,6 +1,4 @@
-from flask import Flask, render_template
-import os
-import numpy as np
+from flask import Flask, render_template, request, jsonify
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -9,16 +7,14 @@ import base64
 
 app = Flask(__name__)
 
-@app.route('/')
-def index():
-    # Leitura de DataBase
-    caminho_absluto = os.path.abspath('assets/Equipamentos.xlsx')
-    df = pd.read_excel(caminho_absluto)
+def calculate_correlations(file):
+    # Carregue o arquivo xlsx em um DataFrame
+    df = pd.read_excel(file)
 
-    # Exclue valores não númericos dos dados
-    numeric_df = df.select_dtypes(include=[np.number])
+    # Exclua valores não numéricos dos dados
+    numeric_df = df.select_dtypes(include=[float, int])
 
-    # Cálcula a correlação de Pearson
+    # Calcula a correlação de Pearson
     correlation_matrix = numeric_df.corr()
 
     # Converte o gráfico para imagem
@@ -31,8 +27,7 @@ def index():
     plot_url1 = base64.b64encode(img.getvalue()).decode()
 
     # Calcula a Correlação de Spearman
-    numeric_df1 = df.select_dtypes(include=[np.number])
-    correlation_matrix1 = numeric_df1.corr('spearman')
+    correlation_matrix1 = numeric_df.corr('spearman')
 
     # Converte o gráfico para imagem
     img = BytesIO()
@@ -43,7 +38,15 @@ def index():
     img.seek(0)
     plot_url2 = base64.b64encode(img.getvalue()).decode()
 
-    return render_template('index.html', plot_url1=plot_url1, plot_url2=plot_url2)
+    return plot_url1, plot_url2
+
+@app.route('/', methods=['GET', 'POST'])
+def index():
+    if request.method == 'POST':
+        file = request.files['file']
+        plot_url1, plot_url2 = calculate_correlations(file)
+        return jsonify({'plot_url1': plot_url1, 'plot_url2': plot_url2})
+    return render_template('index.html')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000)

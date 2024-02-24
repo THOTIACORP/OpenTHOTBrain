@@ -4,12 +4,121 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Correlações</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .container {
+            max-width: 800px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 50px auto;
+        }
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+        h1 {
+            color: #007bff;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #333;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Correlações</h1>
-    <h2>Correalação de Pearson</h2>
-    <img src="data:image/png;base64,{{ plot_url1 }}" alt="Correalação de Pearson">
-    <h2>Correlação de Spearman</h2>
-    <img src="data:image/png;base64,{{ plot_url2 }}" alt="Correlação de Spearman">
+    <div class="container text-center">
+        <h1>Correlações</h1>
+        <form id="uploadForm" enctype="multipart/form-data">
+            <div class="form-group text-center justify-content-center">
+                <label for="file">Selecione o arquivo (.xlsx):</label>
+                <input type="file" class="form-control-file" id="file" name="file">
+            </div>
+            <button type="button" class="btn btn-primary btn-block" onclick="submitForm()">Calcular Correlações</button>
+        </form>
+        <div class="text-center">
+           
+            <h2>Correlação de Pearson</h2>
+            <p class="text-justify">A correlação de Pearson mede o grau de relação linear entre duas variáveis contínuas. Ajuda a entender se há uma relação linear entre duas variáveis e a direção e a força dessa relação</p>
+            <p  class="text-justify"><strong>coeficiente de correlação mede a relação entre duas variáveis e varia de -1 a 1:</strong> </p>
+            <ul  class="text-justify">
+                <li>ρ = 1: Correlação perfeita positiva</li>
+                <li>ρ = -1: Correlação perfeita negativa</li>
+                <li>ρ = 0: Não há correlação linear entre as variáveis</li>
+            </ul>
+            <p  class="text-justify mt-5"><strong>Exemplo de Aplicação:</strong> </p>
+            <ul  class="text-justify">
+                <li>Relação entre o tempo de estudo e o desempenho em exames</li>
+                <li>Correlação entre a quantidade de exercício físico e a saúde cardiovascular</li>
+                <li>Vínculo entre a temperatura e a demanda por sorvete em uma sorveteria</li>
+                <li>Associação entre a altura dos pais e a altura dos filhos</li>
+                <li>Relação entre a renda familiar e o número de carros em uma casa</li>
+                <li>Correlação entre a idade dos funcionários e a produtividade no trabalho</li>
+            </ul>
+            <div id="loadingPearson" class="spinner-border text-primary" role="status">
+                <span class="sr-only">Loading...</span>
+            
+            </div>
+            <img id="pearsonImg" src="" alt="Correalação de Pearson" class="img-fluid d-none">
+                 <h2>Correlação de Spearman</h2>
+            <p class="text-justify">A correlação de Spearman mede o grau de relação monotônica entre duas variáveis. Útil quando os dados não seguem uma distribuição normal ou quando a relação não é necessariamente linear</p>
+            <p  class="text-justify mt-5"><strong>Exemplo de Aplicação:</strong></p>
+        
+            <ul class="text-justify">
+                <li>Relação entre classificação de filmes e preferências dos espectadores.</li>
+                <li>Correlação entre ordem de chegada e tempo de corrida em uma maratona.</li>
+                <li>Associação entre classificação de músicas e vendas em uma loja de música</li>
+                <li>Relação entre classificação de produtos e revisões de clientes</li>
+                <li>Correlação entre classificação de desempenho e satisfação dos funcionários</li>
+                <li>Associação entre classificação de jogadores e resultados em um jogo de tabuleiro</li>
+            </ul>
+            <div id="loadingSpearman" class="spinner-border text-primary" role="status">
+                <span class="sr-only">Loading...</span>
+               
+            </div>
+            <img id="spearmanImg" src="" alt="Correlação de Spearman" class="img-fluid d-none">
+          </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        function submitForm() {
+            var formData = new FormData();
+            var fileInput = document.getElementById('file');
+            formData.append('file', fileInput.files[0]);
+
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', '/', true);
+            xhr.onload = function () {
+                if (xhr.status === 200) {
+                    var response = JSON.parse(xhr.responseText);
+                    document.getElementById('pearsonImg').onload = function() {
+                        document.getElementById('loadingPearson').classList.add('d-none');
+                        document.getElementById('pearsonImg').classList.remove('d-none');
+                    };
+                    document.getElementById('spearmanImg').onload = function() {
+                        document.getElementById('loadingSpearman').classList.add('d-none');
+                        document.getElementById('spearmanImg').classList.remove('d-none');
+                    };
+                    document.getElementById('pearsonImg').src = 'data:image/png;base64,' + response.plot_url1;
+                    document.getElementById('spearmanImg').src = 'data:image/png;base64,' + response.plot_url2;
+                }
+            };
+            xhr.send(formData);
+        }
+    </script>
 </body>
 </html>
