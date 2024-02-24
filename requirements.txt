@@ -6,3 +6,7 @@ openpyxl
 pyarrow
 seaborn
 Flask
+Pyparsing
+scipy
+statsmodels
+base64
