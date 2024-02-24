@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
         body {
             background-color: #f8f9fa;
         }
+
         .container {
             max-width: 800px;
             padding: 20px;
@@ -17,48 +19,86 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             margin: 50px auto;
         }
+
         .btn-primary {
             background-color: #007bff;
             border-color: #007bff;
         }
+
         .btn-primary:hover {
             background-color: #0056b3;
             border-color: #0056b3;
         }
+
         h1 {
             color: #007bff;
             text-align: center;
             margin-bottom: 30px;
         }
+
         h2 {
             color: #333;
             margin-top: 50px;
             margin-bottom: 20px;
         }
+
+        .drop-area {
+            border: 2px dashed #007bff;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+
+        .drop-area:hover {
+            background-color: #f0f0f0;
+        }
+
+        .drop-area input[type="file"] {
+            display: none;
+        }
+
+        .drop-area.drag-over input[type="file"] {
+            display: block;
+        }
     </style>
 </head>
+
 <body>
     <div class="container text-center">
         <h1>Correlações</h1>
-        <form id="uploadForm" enctype="multipart/form-data">
-            <div class="form-group text-center justify-content-center">
-                <label for="file">Selecione o arquivo (.xlsx):</label>
-                <input type="file" class="form-control-file" id="file" name="file">
+        <div class="drop-area py-5" id="dropArea" onclick="handleClick()" ondrop="handleDrop(event)"
+            ondragover="handleDragOver(event)">
+            <span id="dropText">Arraste e solte o arquivo (.xlsx) aqui</span><br>
+            <div id="loadingArchive" class="spinner-border text-primary" role="status">
+                <span class="sr-only">Loading...</span>
             </div>
-            <button type="button" class="btn btn-primary btn-block" onclick="submitForm()">Calcular Correlações</button>
+            <input type="file" id="file" name="file" style="display: none;">
+        </div>
+        <form id="uploadForm" enctype="multipart/form-data" class="d-none">
+            <div class="form-group text-center justify-content-center">
+                <button type="button" id="submitBtn" class="btn btn-primary btn-block d-none"
+                    onclick="submitForm()">Calcular Correlações</button>
+            </div>
         </form>
         <div class="text-center">
-           
+
             <h2>Correlação de Pearson</h2>
-            <p class="text-justify">A correlação de Pearson mede o grau de relação linear entre duas variáveis contínuas. Ajuda a entender se há uma relação linear entre duas variáveis e a direção e a força dessa relação</p>
-            <p  class="text-justify"><strong>coeficiente de correlação mede a relação entre duas variáveis e varia de -1 a 1:</strong> </p>
-            <ul  class="text-justify">
+            <p class="text-justify">A correlação de Pearson mede o grau de relação linear entre duas variáveis
+                contínuas. Ajuda a entender se há uma relação linear entre duas variáveis e a direção e a força dessa
+                relação</p>
+            <p class="text-justify"><strong>coeficiente de correlação mede a relação entre duas variáveis e varia de -1
+                    a 1:</strong> </p>
+            <ul class="text-justify">
                 <li>ρ = 1: Correlação perfeita positiva</li>
                 <li>ρ = -1: Correlação perfeita negativa</li>
                 <li>ρ = 0: Não há correlação linear entre as variáveis</li>
             </ul>
-            <p  class="text-justify mt-5"><strong>Exemplo de Aplicação:</strong> </p>
-            <ul  class="text-justify">
+            <p class="text-justify mt-5"><strong>Exemplo de Aplicação:</strong> </p>
+            <ul class="text-justify">
+                <li>Relação geral entre itens</li>
+                <li>Descobrir anormalidades entre itens</li>
                 <li>Relação entre o tempo de estudo e o desempenho em exames</li>
                 <li>Correlação entre a quantidade de exercício físico e a saúde cardiovascular</li>
                 <li>Vínculo entre a temperatura e a demanda por sorvete em uma sorveteria</li>
@@ -68,13 +108,15 @@
             </ul>
             <div id="loadingPearson" class="spinner-border text-primary" role="status">
                 <span class="sr-only">Loading...</span>
-            
+
             </div>
             <img id="pearsonImg" src="" alt="Correalação de Pearson" class="img-fluid d-none">
-                 <h2>Correlação de Spearman</h2>
-            <p class="text-justify">A correlação de Spearman mede o grau de relação monotônica entre duas variáveis. Útil quando os dados não seguem uma distribuição normal ou quando a relação não é necessariamente linear</p>
-            <p  class="text-justify mt-5"><strong>Exemplo de Aplicação:</strong></p>
-        
+            <h2>Correlação de Spearman</h2>
+            <p class="text-justify">A correlação de Spearman mede o grau de relação monotônica entre duas variáveis.
+                Útil quando os dados não seguem uma distribuição normal ou quando a relação não é necessariamente linear
+            </p>
+            <p class="text-justify mt-5"><strong>Exemplo de Aplicação:</strong></p>
+
             <ul class="text-justify">
                 <li>Relação entre classificação de filmes e preferências dos espectadores.</li>
                 <li>Correlação entre ordem de chegada e tempo de corrida em uma maratona.</li>
@@ -85,31 +127,78 @@
             </ul>
             <div id="loadingSpearman" class="spinner-border text-primary" role="status">
                 <span class="sr-only">Loading...</span>
-               
+
             </div>
             <img id="spearmanImg" src="" alt="Correlação de Spearman" class="img-fluid d-none">
-          </div>
+        </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script>
-        function submitForm() {
-            var formData = new FormData();
-            var fileInput = document.getElementById('file');
-            formData.append('file', fileInput.files[0]);
+        function handleClick() {
+            document.getElementById('file').click();
+        }
 
+        function handleDragOver(event) {
+            event.preventDefault();
+            event.stopPropagation();
+            event.dataTransfer.dropEffect = 'copy';
+            document.getElementById('dropArea').classList.add('drag-over');
+        }
+
+        function handleDrop(event) {
+            event.preventDefault();
+            event.stopPropagation();
+            document.getElementById('dropArea').classList.remove('drag-over');
+            var files = event.dataTransfer.files;
+            handleFiles(files);
+        }
+
+        function handleFileSelect(event) {
+            var files = event.target.files;
+            handleFiles(files);
+        }
+
+        function handleFiles(files) {
+            console.log('Manipulando arquivos:', files);
+            var file = files[0];
+            if (file.type === 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet') {
+                document.getElementById('uploadForm').classList.remove('d-none');
+                document.getElementById('submitBtn').classList.remove('d-none');
+                document.getElementById('dropText').innerText = file.name; // Display the file name in the drop area
+                document.getElementById('loadingArchive').classList.add('d-none'); // Hide the loading element when a file is selected
+
+                // Adiciona o arquivo ao FormData
+                var formData = new FormData();
+                formData.append('file', file);
+
+                // Envia o FormData via requisição POST
+                submitForm(formData);
+            } else {
+                alert('Por favor, selecione um arquivo .xlsx.');
+            }
+        }
+
+        document.getElementById('dropArea').addEventListener('dragover', function (event) {
+            event.preventDefault();
+        });
+
+        document.getElementById('dropArea').addEventListener('drop', handleDrop);
+        document.getElementById('file').addEventListener('change', handleFileSelect);
+
+        function submitForm(formData) {
             var xhr = new XMLHttpRequest();
             xhr.open('POST', '/', true);
             xhr.onload = function () {
                 if (xhr.status === 200) {
                     var response = JSON.parse(xhr.responseText);
-                    document.getElementById('pearsonImg').onload = function() {
+                    document.getElementById('pearsonImg').onload = function () {
                         document.getElementById('loadingPearson').classList.add('d-none');
                         document.getElementById('pearsonImg').classList.remove('d-none');
                     };
-                    document.getElementById('spearmanImg').onload = function() {
+                    document.getElementById('spearmanImg').onload = function () {
                         document.getElementById('loadingSpearman').classList.add('d-none');
                         document.getElementById('spearmanImg').classList.remove('d-none');
                     };
@@ -119,6 +208,8 @@
             };
             xhr.send(formData);
         }
+
     </script>
 </body>
+
 </html>
