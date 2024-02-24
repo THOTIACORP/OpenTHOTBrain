@@ -9,4 +9,3 @@ Flask
 Pyparsing
 scipy
 statsmodels
-base64
