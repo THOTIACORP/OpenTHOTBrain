@@ -3,6 +3,17 @@ Software elaborado para os desafios do curso de matemática e I.A. da - I2A2
 - https://www.i2a2.academy/
 <br><br><br><br>
 
+## Sumário  
+
+- [Software de Análises de Dados Diversas em Python](#software-de-análises-de-dados-diversas-em-python)
+  - [Sumário](#sumário)
+  - [Sistema webdev com funções recursivas dinâmicas](#sistema-webdev-com-funções-recursivas-dinâmicas)
+  - [Imagens do sistema](#imagens-do-sistema)
+    - [Recursos do sistema](#recursos-do-sistema)
+    - [Dependências](#dependências)
+    - [Dowload do sistema](#dowload-do-sistema)
+    - [Rodar o sistema](#rodar-o-sistema)
+
 ## Sistema webdev com funções recursivas dinâmicas
 - Ferramentas de ultima geração
 - Sistema dispensa conhecimento em programação para uso
@@ -19,13 +30,6 @@ Software elaborado para os desafios do curso de matemática e I.A. da - I2A2
 ![Logo](./public/assets/img/0002.jpg)
 </div>
 <br><br><br><br>
-
-## Sumário  
-
-    - [Recursos do sistema](#recursos-do-sistema)
-    - [Dependências](#dependências)
-    - [Dowload do sistema](#dowload-do-sistema)
-    - [Rodar o sistema](#rodar-o-sistema)
 
 ### Recursos do sistema
 - ✅ Correlações de Pearson
