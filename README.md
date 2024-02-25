@@ -1,19 +1,45 @@
-# I2A2-Challanges-Python
-Desafios do curso de I.A.
+# Software de Análises de Dados Diversas em Python
+Software elaborado para os desafios do curso de matemática e I.A. da - I2A2
+- https://www.i2a2.academy/
 
+Sistema webdev com funções recursivas dinâmicas e ferramentas de ultima geração
+- Sistema dispensa conhecimento em software para uso
+- Sistema com UI/UX interface de usuário intuitiva
+- Sistema preparado pra interpretar as tarefas do curso e qualquer outra com similaridade
+- Sistema com instruções AAA de ponta a ponta
+- Sistema desenvolvido pela comunidade para anaslistas de dados
 
+<hr>
+<br><br><br><br>
 Dependências:
+Requerimentos externo do software 
 Faça download dos coomponentes abaixo 
+- Instale o sistemas
+- Crie conta e conecte-se as contas respectivas  
+
+IDE - Ambiente de Desenvolvimento Integrado - programa para abrir a pasta do software e te auxiliar a codar
+- VSCode não é necessário conta
+- https://code.visualstudio.com/download
 
 Controle de versionamento:
 - https://git-scm.com/downloads
+- https://desktop.github.com/    [ Abrir conta ]
 
 Ambiente virtual 
-- https://docs.docker.com/desktop/install/windows-install/
+- https://docs.docker.com/desktop/install/windows-install/           [ Abrir conta ]
 
 
+
+Agora que você fez todos dowloads instalou, criou as conta e logou 
+-Abra o githubdesktop e clone o esse projeto através da url maiores instruções no link abaixo
+- https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop 
+
+Url para clone
+- https://github.com/THOTIACORP/I2A2-Challanges-Python.git
+
+Agora que vc têm o projeto clonado peça o github desktop abrir o projeto com VSCode
+No VSCode peça para abrir um novo terminal e digite os seguintes comoandos abaixo:
 Para subir um contêiner Docker execute no terminal do projeto:
-
 
 1. **Construa a imagem Docker**: No mesmo diretório do Dockerfile, execute o comando:
 
