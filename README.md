@@ -8,10 +8,10 @@ Software elaborado para os desafios do curso de matemática e I.A. da - I2A2
   - [Sumário](#sumário)
   - [Qualidades do sistema](#qualidades-do-sistema)
   - [Imagens do sistema](#imagens-do-sistema)
-    - [Recursos do sistema](#recursos-do-sistema)
-    - [Dependências](#dependências)
-    - [Dowload do sistema](#dowload-do-sistema)
-    - [Rodar o sistema](#rodar-o-sistema)
+  - [Recursos do sistema](#recursos-do-sistema)
+  - [Dependências](#dependências)
+  - [Dowload do sistema](#dowload-do-sistema)
+  - [Rodar o sistema](#rodar-o-sistema)
 
 <br><br><br><br>
 
@@ -33,13 +33,13 @@ Software elaborado para os desafios do curso de matemática e I.A. da - I2A2
 </div>
 <br><br><br><br>
 
-### Recursos do sistema
+## Recursos do sistema
 - ✅ Correlações de Pearson
 - ✅ Correlações de Spearman
 
 <br><br><br><br>
 
-### Dependências
+## Dependências
 
 Requerimentos externo do software 
 - Faça download dos coomponentes abaixo 
@@ -60,7 +60,7 @@ Ambiente virtual
 
 <br><br>
 
-### Dowload do sistema
+## Dowload do sistema
 Agora que você fez todos dowloads instalou, criou as conta e logou 
 - Abra o githubdesktop e clone o esse projeto através da url maiores instruções no link abaixo
 - https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop 
@@ -70,7 +70,7 @@ Url para clone
 
 <br><br>
 
-### Rodar o sistema
+## Rodar o sistema
 Agora que vc têm o projeto clonado peça o github desktop abrir o projeto com VSCode
 No VSCode peça para abrir um novo terminal e digite os seguintes comandos abaixo:
 Para subir um contêiner Docker execute no terminal do projeto:
