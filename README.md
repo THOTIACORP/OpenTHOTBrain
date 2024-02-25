@@ -20,7 +20,7 @@ Software elaborado para os desafios do curso de matemática e I.A. da - I2A2
 
 ## Qualidades do sistema
 - Sistema webdev com funções recursivas dinâmicas
-- Ferramentas de ultima geração
+- Sistema utiliza ferramentas de ultima geração
 - Sistema dispensa conhecimento em programação para uso
 - Sistema com UI/UX interface de usuário intuitiva
 - Sistema preparado pra interpretar as tarefas do curso e qualquer outra com similaridade
