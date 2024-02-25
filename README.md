@@ -4,7 +4,7 @@ Software elaborado para os desafios do curso de matemática e I.A. da - I2A2
 <br><br><br><br>
 
 ## Sistema webdev com funções recursivas dinâmicas e ferramentas de ultima geração
-- Sistema dispensa conhecimento em software para uso
+- Sistema dispensa conhecimento em programação para uso
 - Sistema com UI/UX interface de usuário intuitiva
 - Sistema preparado pra interpretar as tarefas do curso e qualquer outra com similaridade
 - Sistema com instruções AAA de ponta a ponta
