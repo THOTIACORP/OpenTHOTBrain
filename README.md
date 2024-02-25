@@ -1,4 +1,7 @@
+<div align="center">
+  
 # Software de Análises de Dados Diversas em Python
+</div>
 Software elaborado para os desafios do curso de matemática e I.A. da - I2A2
 - https://www.i2a2.academy/
 <br><br><br><br>
