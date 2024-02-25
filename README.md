@@ -3,12 +3,13 @@ Software elaborado para os desafios do curso de matemática e I.A. da - I2A2
 - https://www.i2a2.academy/
 <br><br><br><br>
 
-## Sistema webdev com funções recursivas dinâmicas e ferramentas de ultima geração
+## Sistema webdev com funções recursivas dinâmicas
+- Ferramentas de ultima geração
 - Sistema dispensa conhecimento em programação para uso
 - Sistema com UI/UX interface de usuário intuitiva
 - Sistema preparado pra interpretar as tarefas do curso e qualquer outra com similaridade
 - Sistema com instruções AAA de ponta a ponta
-- Sistema desenvolvido pela comunidade para anaslistas de dados
+- Sistema desenvolvido pela comunidade pensando em auxiliar os anaslistas de dados
 <br><br><br><br>
 
 ## Recursos do sistema
