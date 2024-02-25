@@ -12,13 +12,32 @@ Software elaborado para os desafios do curso de matemática e I.A. da - I2A2
 - Sistema desenvolvido pela comunidade pensando em auxiliar os anaslistas de dados
 <br><br><br><br>
 
-## Recursos do sistema
+## Sumário  
+
+- [Software de Análises de Dados Diversas em Python](#software-de-análises-de-dados-diversas-em-python)
+  - [Sistema webdev com funções recursivas dinâmicas](#sistema-webdev-com-funções-recursivas-dinâmicas)
+  - [Sumário](#sumário)
+    - [Recursos do sistema](#recursos-do-sistema)
+    - [Imagens do sistema](#imagens-do-sistema)
+    - [Dependências](#dependências)
+    - [Dowload do sistema](#dowload-do-sistema)
+    - [Rodar o sistema](#rodar-o-sistema)
+
+### Recursos do sistema
 - ✅ Correlações de Pearson
 - ✅ Correlações de Spearman
 
 <br><br><br><br>
 
-## Dependências:
+### Imagens do sistema
+<div align="center">
+
+![Logo](./public/assets/img/0001.jpg)
+![Logo](./public/assets/img/0002.jpg)
+</div>
+<br><br><br><br>
+
+### Dependências
 
 Requerimentos externo do software 
 - Faça download dos coomponentes abaixo 
@@ -39,7 +58,7 @@ Ambiente virtual
 
 <br><br>
 
-## Dowload do projeto
+### Dowload do sistema
 Agora que você fez todos dowloads instalou, criou as conta e logou 
 - Abra o githubdesktop e clone o esse projeto através da url maiores instruções no link abaixo
 - https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop 
@@ -49,7 +68,7 @@ Url para clone
 
 <br><br>
 
-## Rodar o projeto
+### Rodar o sistema
 Agora que vc têm o projeto clonado peça o github desktop abrir o projeto com VSCode
 No VSCode peça para abrir um novo terminal e digite os seguintes comandos abaixo:
 Para subir um contêiner Docker execute no terminal do projeto:
