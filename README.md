@@ -4,17 +4,19 @@ Software elaborado para os desafios do curso de matemática e I.A. da - I2A2
 <br><br><br><br>
 
 ## Sumário  
-
 - [Software de Análises de Dados Diversas em Python](#software-de-análises-de-dados-diversas-em-python)
   - [Sumário](#sumário)
-  - [Sistema webdev com funções recursivas dinâmicas](#sistema-webdev-com-funções-recursivas-dinâmicas)
+  - [Qualidades do sistema](#qualidades-do-sistema)
   - [Imagens do sistema](#imagens-do-sistema)
     - [Recursos do sistema](#recursos-do-sistema)
     - [Dependências](#dependências)
     - [Dowload do sistema](#dowload-do-sistema)
     - [Rodar o sistema](#rodar-o-sistema)
 
-## Sistema webdev com funções recursivas dinâmicas
+<br><br><br><br>
+
+## Qualidades do sistema
+- Sistema webdev com funções recursivas dinâmicas
 - Ferramentas de ultima geração
 - Sistema dispensa conhecimento em programação para uso
 - Sistema com UI/UX interface de usuário intuitiva
