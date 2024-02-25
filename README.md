@@ -1,24 +1,26 @@
 <div align="center">
   
-# Software de Análises de Dados Diversas em Python
+# Software de Análises de Dados em Python
 </div>
 Software elaborado para os desafios do curso de matemática e I.A. da - I2A2
 - https://www.i2a2.academy/
 <br><br><br><br>
 
 ## Sumário  
-- [Software de Análises de Dados Diversas em Python](#software-de-análises-de-dados-diversas-em-python)
+- [Software de Análises de Dados em Python](#software-de-análises-de-dados-em-python)
   - [Sumário](#sumário)
-  - [Qualidades do sistema](#qualidades-do-sistema)
-  - [Imagens do sistema](#imagens-do-sistema)
+    - [Qualidades do sistema](#qualidades-do-sistema)
+    - [Imagens do sistema](#imagens-do-sistema)
   - [Recursos do sistema](#recursos-do-sistema)
-  - [Dependências](#dependências)
-  - [Dowload do sistema](#dowload-do-sistema)
-  - [Rodar o sistema](#rodar-o-sistema)
+    - [Dependências](#dependências)
+    - [Dowload do sistema](#dowload-do-sistema)
+    - [Rodar o sistema](#rodar-o-sistema)
+      - [Ambiente virtual](#ambiente-virtual)
+      - [Ambiente convencional](#ambiente-convencional)
 
 <br><br><br><br>
 
-## Qualidades do sistema
+### Qualidades do sistema
 - Sistema webdev com funções recursivas dinâmicas
 - Ferramentas de ultima geração
 - Sistema dispensa conhecimento em programação para uso
@@ -28,7 +30,7 @@ Software elaborado para os desafios do curso de matemática e I.A. da - I2A2
 - Sistema desenvolvido pela comunidade pensando em auxiliar os anaslistas de dados
 <br><br><br><br>
 
-## Imagens do sistema
+### Imagens do sistema
 <div align="center">
 
 ![Logo](./public/assets/img/0001.jpg)
@@ -42,7 +44,7 @@ Software elaborado para os desafios do curso de matemática e I.A. da - I2A2
 
 <br><br><br><br>
 
-## Dependências
+### Dependências
 
 Requerimentos externo do software 
 - Faça download dos coomponentes abaixo 
@@ -63,7 +65,7 @@ Ambiente virtual
 
 <br><br>
 
-## Dowload do sistema
+### Dowload do sistema
 Agora que você fez todos dowloads instalou, criou as conta e logou 
 - Abra o githubdesktop e clone o esse projeto através da url maiores instruções no link abaixo
 - https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop 
@@ -73,7 +75,9 @@ Url para clone
 
 <br><br>
 
-## Rodar o sistema
+### Rodar o sistema
+
+#### Ambiente virtual
 Agora que vc têm o projeto clonado peça o github desktop abrir o projeto com VSCode
 No VSCode peça para abrir um novo terminal e digite os seguintes comandos abaixo:
 Para subir um contêiner Docker execute no terminal do projeto:
@@ -97,3 +101,16 @@ Isso iniciará o contêiner em segundo plano.
 Lembre-se de substituir "versao_um" pelo nome que você deseja dar à sua imagem Docker.
 
 Certifique-se de ajustar o Dockerfile de acordo com a estrutura do seu aplicativo Python (por exemplo, nome do arquivo principal, dependências etc.).
+
+#### Ambiente convencional
+Requerimentos externo do software 
+- Faça download dos coomponentes abaixo 
+- Instale o sistemas
+
+- Python3.12.2
+
+Execute o seguinte comando no terminal 
+
+```bash
+pip 
+```
