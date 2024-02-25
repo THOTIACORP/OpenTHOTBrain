@@ -11,7 +11,7 @@ Software elaborado para os desafios do curso de matemática e I.A. da - I2A2
   - [Sumário](#sumário)
     - [Qualidades do sistema](#qualidades-do-sistema)
     - [Imagens do sistema](#imagens-do-sistema)
-  - [Recursos do sistema](#recursos-do-sistema)
+    - [Recursos do sistema](#recursos-do-sistema)
     - [Dependências](#dependências)
     - [Dowload do sistema](#dowload-do-sistema)
     - [Rodar o sistema](#rodar-o-sistema)
@@ -38,7 +38,7 @@ Software elaborado para os desafios do curso de matemática e I.A. da - I2A2
 </div>
 <br><br><br><br>
 
-## Recursos do sistema
+### Recursos do sistema
 - ✅ Correlações de Pearson
 - ✅ Correlações de Spearman
 
