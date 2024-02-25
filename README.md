@@ -10,6 +10,9 @@ Software elaborado para os desafios do curso de matemática e I.A. da - I2A2
 - Sistema com instruções AAA de ponta a ponta
 - Sistema desenvolvido pela comunidade para anaslistas de dados
 
+## Recursos do sistema
+✅ Correlações de Pearson
+✅ Correlações de Spearman
 
 <br><br><br><br>
 
