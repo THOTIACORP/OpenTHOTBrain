@@ -12,13 +12,21 @@ Software elaborado para os desafios do curso de matemática e I.A. da - I2A2
 - Sistema desenvolvido pela comunidade pensando em auxiliar os anaslistas de dados
 <br><br><br><br>
 
+## Imagens do sistema
+<div align="center">
+
+![Logo](./public/assets/img/0001.jpg)
+![Logo](./public/assets/img/0002.jpg)
+</div>
+<br><br><br><br>
+
 ## Sumário  
 
 - [Software de Análises de Dados Diversas em Python](#software-de-análises-de-dados-diversas-em-python)
   - [Sistema webdev com funções recursivas dinâmicas](#sistema-webdev-com-funções-recursivas-dinâmicas)
+  - [Imagens do sistema](#imagens-do-sistema)
   - [Sumário](#sumário)
     - [Recursos do sistema](#recursos-do-sistema)
-    - [Imagens do sistema](#imagens-do-sistema)
     - [Dependências](#dependências)
     - [Dowload do sistema](#dowload-do-sistema)
     - [Rodar o sistema](#rodar-o-sistema)
@@ -27,14 +35,6 @@ Software elaborado para os desafios do curso de matemática e I.A. da - I2A2
 - ✅ Correlações de Pearson
 - ✅ Correlações de Spearman
 
-<br><br><br><br>
-
-### Imagens do sistema
-<div align="center">
-
-![Logo](./public/assets/img/0001.jpg)
-![Logo](./public/assets/img/0002.jpg)
-</div>
 <br><br><br><br>
 
 ### Dependências
