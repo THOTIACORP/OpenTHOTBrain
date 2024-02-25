@@ -6,13 +6,13 @@ Software elaborado para os desafios do curso de matemática e I.A. da - I2A2
 
 - https://www.i2a2.academy/
 
-
-- Projeto: OPEN THOT Brain
-- Transformando dados em resultados. O poder está nas suas mãos
-- Com o passado, preveja tendências e comportamentos futuros
-- Descubra oportunidades ocultas, identifique padrões emergentes e tome decisões informadas com confiança
-- Essa soluções capacita você a alcançar novos patamares de sucesso e excelência
-- Comece agora mesmo !!!
+<br><br>
+Projeto: OPEN THOT Brain
+- ✅ Transformando dados em resultados. O poder em suas mãos
+- ✅ Aprenda com o passado e o presente, preveja tendências e comportamentos futuros
+- ✅ Descubra oportunidades ocultas, identifique padrões emergentes e tome decisões informadas com confiança
+- ✅ Essa solução capacita você a alcançar novos patamares de sucesso e excelência
+- ✅ Comece a utilizar agora mesmo !!!
 
 <br><br><br><br>
 
