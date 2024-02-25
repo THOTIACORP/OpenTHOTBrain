@@ -42,9 +42,9 @@ Agora que você fez todos dowloads instalou, criou as conta e logou
 Url para clone
 - https://github.com/THOTIACORP/I2A2-Challanges-Python.git
 
+<br><br>
 
-
-## Rodar o sistema
+## Rodar o projeto
 Agora que vc têm o projeto clonado peça o github desktop abrir o projeto com VSCode
 No VSCode peça para abrir um novo terminal e digite os seguintes comandos abaixo:
 Para subir um contêiner Docker execute no terminal do projeto:
