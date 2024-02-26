@@ -1,45 +1,55 @@
 @echo off
 
-REM Definir URLs para Git, Docker e GitHub Desktop
+REM Defina os URLs corretos para os instaladores do Git, Docker e GitHub Desktop
 set GIT_URL=https://github.com/git-for-windows/git/releases/download/v2.33.0.windows.1/Git-2.33.0-64-bit.exe
-set DOCKER_URL=https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe?utm_source=docker&utm_medium=webreferral&utm_campaign=dd-smartbutton&utm_location=module&_gl=1*mu8u56*_ga*NzMwMDg3OTY2LjE3MDg1NjAxNzg.*_ga_XJWPQMJYHQ*MTcwODkwMjI4OC41LjEuMTcwODkwMjI5Ni41Mi4wLjA.
-set GITHUB_DESKTOP_URL=https://github.com/desktop/desktop/releases/download/release-2.8.0-windows2/GitHubDesktopSetup.exe
+set DOCKER_URL=https://drive.usercontent.google.com/download?id=1Qy9Kj8ldQhvXXmPJQ6l2o9xD5B_6O5N1
+set GITHUB_DESKTOP_URL=https://central.github.com/deployments/desktop/desktop/latest/win32
 
-REM Definir a localização padrão da pasta de repositórios do GitHub Desktop
-set GITHUB_DESKTOP_REPO_LOCATION=%USERPROFILE%\Documents\GitHub
+REM Defina o diretório onde você deseja baixar os instaladores
+set DOWNLOAD_DIR=C:\Downloads
 
-REM 2. Baixar e instalar o Git (caso já não esteja instalado)
-curl -o GitInstaller.exe %GIT_URL%
-GitInstaller.exe /SILENT
-timeout /t 60
+REM Certifique-se de que o diretório de download exista, caso contrário, crie-o
+if not exist "%DOWNLOAD_DIR%" mkdir "%DOWNLOAD_DIR%"
+REM Verificar se o GitInstaller.exe já existe antes de baixar
+if not exist "%DOWNLOAD_DIR%\GitInstaller.exe" (
+    echo Baixando o Git...
+    bitsadmin /transfer DownloadGit %GIT_URL% "%DOWNLOAD_DIR%\GitInstaller.exe"
+)
+REM Renomear o arquivo Docker Desktop Installer
+ren "%DOWNLOAD_DIR%\Docker%20Desktop%20Installer.exe" "%DOWNLOAD_DIR%\DockerInstaller.exe"
+REM Verificar se o DockerInstaller.exe já existe antes de baixar
+if not exist "%DOWNLOAD_DIR%\DockerInstaller.exe" (
+    echo Baixando o Docker...
+    bitsadmin /transfer DownloadDocker %DOCKER_URL% "%DOWNLOAD_DIR%\DockerInstaller.exe"
+)
 
-REM 1. Baixar e instalar o Docker (caso já não esteja instalado)
-curl -o DockerInstaller.exe %DOCKER_URL%
-DockerInstaller.exe /S
-timeout /t 60
+REM Verificar se o GitHubDesktopSetup.exe já existe antes de baixar
+if not exist "%DOWNLOAD_DIR%\GitHubDesktopSetup.exe" (
+    echo Baixando o GitHub Desktop...
+    bitsadmin /transfer DownloadGitHubDesktop %GITHUB_DESKTOP_URL% "%DOWNLOAD_DIR%\GitHubDesktopSetup.exe"
+)
 
-REM 3. Baixar e instalar o GitHub Desktop
-curl -o GitHubDesktopSetup.exe %GITHUB_DESKTOP_URL%
-GitHubDesktopSetup.exe /SILENT
-timeout /t 60
+REM Aguardar o download ser concluído antes de prosseguir
+timeout /t 10 /nobreak
 
-REM Navegar até a pasta de repositórios do GitHub Desktop
-cd %GITHUB_DESKTOP_REPO_LOCATION%
+REM Instalar o Git
+echo Instalando o Git...
+"%DOWNLOAD_DIR%\GitInstaller.exe" /SILENT
 
-REM 4. Baixar o software do GitHub
-git clone https://github.com/THOTIACORP/I2A2-Challanges-Python.git
+REM Instalar o Docker
+echo Instalando o Docker...
+"%DOWNLOAD_DIR%\DockerInstaller.exe" /SILENT
 
-REM Navegar até o diretório do software
-cd I2A2-Challanges-Python
+REM Instalar o GitHub Desktop
+echo Instalando o GitHub Desktop...
+"%DOWNLOAD_DIR%\GitHubDesktopSetup.exe"
 
-REM Aguardar um tempo para o Docker ser instalado completamente
-timeout /t 60
+REM Aguardar um tempo para as instalações serem concluídas
+timeout /t 10 /nobreak
 
-REM 5. Executar o Dockerfile para construir a imagem
 docker build -t versao_um .
 
-REM 6. Executar o contêiner a partir da imagem
+REM 5. Executar o contêiner a partir da imagem (substitua "nome_da_imagem" pelo nome da imagem)
 docker run -p 5000:5000 versao_um
 
-REM Opcional: Exibir mensagem indicando que o processo foi concluído
-echo Script concluído. O Git, o Docker, o GitHub Desktop, o software do GitHub foram instalados e a imagem Docker foi construída e executada.
+REM Após as instalações, você pode prosseguir com o restante do seu script
