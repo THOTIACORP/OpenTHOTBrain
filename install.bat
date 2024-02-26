@@ -15,10 +15,9 @@ if not exist "%DOWNLOAD_DIR%\GitInstaller.exe" (
     echo Baixando o Git...
     bitsadmin /transfer DownloadGit %GIT_URL% "%DOWNLOAD_DIR%\GitInstaller.exe"
 )
-REM Renomear o arquivo Docker Desktop Installer
-ren "%DOWNLOAD_DIR%\Docker%20Desktop%20Installer.exe" "%DOWNLOAD_DIR%\DockerInstaller.exe"
+
 REM Verificar se o DockerInstaller.exe já existe antes de baixar
-if not exist "%DOWNLOAD_DIR%\DockerInstaller.exe" (
+if not exist "%DOWNLOAD_DIR%\Docker%20Desktop%20Installer.exe" (
     echo Baixando o Docker...
     bitsadmin /transfer DownloadDocker %DOCKER_URL% "%DOWNLOAD_DIR%\DockerInstaller.exe"
 )
