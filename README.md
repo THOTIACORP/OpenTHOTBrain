@@ -1,6 +1,6 @@
 <div align="center">
   
-# Software de Análises de Dados em Python
+# Software de Análises de Dados
 </div>
 Software elaborado para os desafios do curso de matemática e I.A. da - I2A2
 
