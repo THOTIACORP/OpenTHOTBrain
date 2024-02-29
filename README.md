@@ -20,7 +20,8 @@ Projeto: OPEN THOT Brain
   - [Sumário](#sumário)
     - [Qualidades do sistema](#qualidades-do-sistema)
     - [Imagens do sistema](#imagens-do-sistema)
-    - [Lógica do sistema](#lógica-do-sistema)
+    - [Lógica do sistema de front-end](#lógica-do-sistema-de-front-end)
+    - [Lógica do sistema de back-end](#lógica-do-sistema-de-back-end)
     - [Recursos do sistema](#recursos-do-sistema)
     - [Dependências](#dependências)
     - [Dowload do sistema](#dowload-do-sistema)
@@ -47,6 +48,11 @@ Projeto: OPEN THOT Brain
 
 https://www.figma.com/community/file/1344883461205069126
 </div>
+<br><br><br><br>
+
+### Lógica do sistema de front-end
+
+Escala de eventos 
 <br><br><br><br>
 
 ### Lógica do sistema de back-end
