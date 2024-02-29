@@ -2,11 +2,8 @@
   
 # Software de Análises de Dados
 </div>
-Software elaborado para os desafios do curso de matemática e I.A. da - I2A2
-
-- https://www.i2a2.academy/
-
 <br><br>
+
 Projeto: OPEN THOT Brain
 - ✅ Transformando dados em resultados. O poder em suas mãos
 - ✅ Aprenda com o passado e o presente, preveja tendências e comportamentos futuros
@@ -25,8 +22,9 @@ Projeto: OPEN THOT Brain
     - [Recursos do sistema](#recursos-do-sistema)
       - [Análises quatitativas](#análises-quatitativas)
     - [Como contribuir com o projeto](#como-contribuir-com-o-projeto)
-      - [Desenvolvedores](#desenvolvedores)
-      - [Patrocinadores](#patrocinadores)
+      - [Contribuindo como desenvolvedor](#contribuindo-como-desenvolvedor)
+      - [Contribuindo como patrocinador](#contribuindo-como-patrocinador)
+      - [Poruqe contribuir](#poruqe-contribuir)
     - [Dowload do sistema](#dowload-do-sistema)
     - [Iniciar sistema](#iniciar-sistema)
       - [Windowns](#windowns)
@@ -97,23 +95,30 @@ https://miro.com/app/board/uXjVNn0Fy84=/?share_link_id=204593179378
 ### Como contribuir com o projeto
 <hr>
 
-Projeto aberto desenvolvido pela comunidade 
+Projeto OPEN aberto, desenvolvido pela comunidade
 
-#### Desenvolvedores
+#### Contribuindo como desenvolvedor
 Os desenvolvedores podem analisar o sistema e implementar atualizações livremente então essas serão revisadas e aplicadas  
 
 
-- As distribuições de tarefas estão no Jirra
-
+- ✅ As distribuições de tarefas estão no Jirra
+- ✅ Você tambem pode inferir novas tarefas software livre 
 <div align="center">
 
 - 
 
 </div>
 
-#### Patrocinadores
-Você pode querer contribuir financeiramente com este projeto 
+#### Contribuindo como patrocinador
+Você também pode querer contribuir financeiramente com este projeto, ajudando a cobrir os custos de desenvolvimento, manutenção e hospedagem do software
 
+- ✅ 
+<br><br><br><br>
+
+#### Poruqe contribuir 
+Contribuir com o projeto é essencial para ajudar a desenvolver e aprimorar a ferramenta para análise de dados e tomada de decisões informadas 
+
+Como software OPEN não temos renda desse sistema ele é de uso e implementação gratuita então dependemos inteiramente da comunidade para continuar prestando esses serviços na mais alta qualidade possível empre 
 <br><br><br><br>
 
 
