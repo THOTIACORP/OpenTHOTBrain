@@ -32,6 +32,8 @@ Projeto: OPEN THOT Brain
 <br><br><br><br>
 
 ### Qualidades do sistema
+<hr>
+
 - Sistema webdev com funções recursivas dinâmicas
 - Sistema utiliza ferramentas de ultima geração
 - Sistema dispensa conhecimento em programação para uso
@@ -42,6 +44,7 @@ Projeto: OPEN THOT Brain
 <br><br><br><br>
 
 ### Imagens do sistema
+<hr>
 <div align="center">
 
 ![Logo](./public/assets/img/Front-end.png)
@@ -51,11 +54,12 @@ https://www.figma.com/community/file/1344883461205069126
 <br><br><br><br>
 
 ### Lógica do sistema de front-end
-
+<hr>
 Escala de eventos 
 <br><br><br><br>
 
 ### Lógica do sistema de back-end
+<hr>
 <div align="center">
 
 ![Logo](./public/assets/img/Mirro.png)
@@ -65,6 +69,7 @@ https://miro.com/app/board/uXjVNn0Fy84=/?share_link_id=204593179378
 <br><br><br><br>
 
 ### Recursos do sistema
+<hr>
 - ✅ Correlações de Pearson
 - ✅ Correlações de Spearman
 <div align="center">
