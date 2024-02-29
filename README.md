@@ -45,11 +45,11 @@ Projeto: OPEN THOT Brain
 
 ![Logo](./public/assets/img/Front-end.png)
 
-
+https://www.figma.com/community/file/1344883461205069126
 </div>
 <br><br><br><br>
 
-### Lógica do sistema
+### Lógica do sistema de back-end
 <div align="center">
 
 ![Logo](./public/assets/img/Mirro.png)
