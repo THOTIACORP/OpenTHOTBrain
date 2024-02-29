@@ -57,6 +57,14 @@ https://www.figma.com/community/file/1344883461205069126
 ### Lógica do sistema de front-end
 <hr>
 Escala de eventos 
+
+<div align="center">
+
+![Logo](./public/assets/img/Req-Res.png)
+
+</div>
+
+
 <br><br><br><br>
 
 ### Lógica do sistema de back-end
