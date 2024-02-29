@@ -54,6 +54,7 @@ Projeto: OPEN THOT Brain
 
 ![Logo](./public/assets/img/Mirro.png)
 
+https://miro.com/app/board/uXjVNn0Fy84=/?share_link_id=204593179378
 </div>
 <br><br><br><br>
 
