@@ -17,10 +17,11 @@ Projeto: OPEN THOT Brain
 <br><br><br><br>
 
 ## Sumário  
-- [Software de Análises de Dados em Python](#software-de-análises-de-dados-em-python)
+- [Software de Análises de Dados](#software-de-análises-de-dados)
   - [Sumário](#sumário)
     - [Qualidades do sistema](#qualidades-do-sistema)
     - [Imagens do sistema](#imagens-do-sistema)
+    - [Lógica do sistema](#lógica-do-sistema)
     - [Recursos do sistema](#recursos-do-sistema)
     - [Dependências](#dependências)
     - [Dowload do sistema](#dowload-do-sistema)
@@ -44,7 +45,15 @@ Projeto: OPEN THOT Brain
 <div align="center">
 
 ![Logo](./public/assets/img/0001.jpg)
-![Logo](./public/assets/img/0002.jpg)
+![Logo](./public/assets/img/0001.jpg)
+</div>
+<br><br><br><br>
+
+### Lógica do sistema
+<div align="center">
+
+![Logo](./public/assets/img/0003.jpg)
+
 </div>
 <br><br><br><br>
 
