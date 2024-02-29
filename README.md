@@ -20,6 +20,7 @@ Projeto: OPEN THOT Brain
     - [Lógica do sistema de front-end](#lógica-do-sistema-de-front-end)
     - [Lógica do sistema de back-end](#lógica-do-sistema-de-back-end)
     - [Recursos do sistema](#recursos-do-sistema)
+      - [Técnica exploratória descritiva](#técnica-exploratória-descritiva)
       - [Análises quatitativas](#análises-quatitativas)
     - [Como contribuir com o projeto](#como-contribuir-com-o-projeto)
       - [Contribuindo como desenvolvedor](#contribuindo-como-desenvolvedor)
@@ -85,9 +86,12 @@ https://miro.com/app/board/uXjVNn0Fy84=/?share_link_id=204593179378
 ### Recursos do sistema
 <hr>
 
-#### Análises quatitativas
+####  Técnica exploratória descritiva
 
 - ✅ [(PCA) Análise de Componentes Principais]()
+
+#### Análises quatitativas
+
 - ✅ [Correlações de Pearson](/src/front-end/src/pages/analysis/Readme.md)
 - ✅ [Correlações de Spearman](/src/front-end/src/pages/analysis/Readme.md)
 <br><br><br><br>
