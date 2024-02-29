@@ -28,7 +28,7 @@ Projeto: OPEN THOT Brain
     - [Iniciar sistema](#iniciar-sistema)
       - [Windowns](#windowns)
       - [Ambiente virtual](#ambiente-virtual)
-      - [Ambiente convencional](#ambiente-convencional)
+      - [Ambiente local](#ambiente-local)
         - [Dependências](#dependências)
 
 <br><br><br><br>
@@ -124,27 +124,11 @@ Isso iniciará o contêiner em segundo plano.
 Lembre-se de substituir "versao_um" pelo nome que você deseja dar à sua imagem Docker.
 <br><br><br><br>
 
-#### Ambiente convencional
+#### Ambiente local
 
 
 
 ##### Dependências
-
-Requerimentos externo do software 
-- Faça download dos coomponentes abaixo 
-- Instale o sistemas
-- Crie conta e conecte-se as contas respectivas
- <br><br>
-
-IDE - Ambiente de Desenvolvimento Integrado - programa para abrir a pasta do software e te auxiliar a codar
-- https://code.visualstudio.com/download [ Não é necessário conta ]
-
-Controle de versionamento:
-- https://git-scm.com/downloads [ Não é necessário conta ]
-- https://desktop.github.com/    [ Abrir conta ]
-
-<br><br>
-<br><br>
 
 Requerimentos externo do software 
 - Faça download dos coomponentes abaixo 

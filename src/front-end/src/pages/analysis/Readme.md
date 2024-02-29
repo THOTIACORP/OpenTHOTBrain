@@ -1,5 +1,5 @@
 <div align="center">
 
-![Logo](./public/assets/img/0001.jpg)
-![Logo](./public/assets/img/0002.jpg)
+![Logo](../../../public/0001.jpg)
+![Logo](../../../public/0002.jpg)
 </div>
