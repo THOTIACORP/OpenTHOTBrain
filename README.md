@@ -52,7 +52,7 @@ Projeto: OPEN THOT Brain
 ### Lógica do sistema
 <div align="center">
 
-![Logo](./public/assets/img/Mirro.jpg)
+![Logo](./public/assets/img/Mirro.png)
 
 </div>
 <br><br><br><br>
