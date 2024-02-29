@@ -23,11 +23,11 @@ Projeto: OPEN THOT Brain
     - [Lógica do sistema de front-end](#lógica-do-sistema-de-front-end)
     - [Lógica do sistema de back-end](#lógica-do-sistema-de-back-end)
     - [Recursos do sistema](#recursos-do-sistema)
-    - [Dependências](#dependências)
     - [Dowload do sistema](#dowload-do-sistema)
-    - [Rodar o sistema](#rodar-o-sistema)
+      - [Iniciar sistema windowns](#iniciar-sistema-windowns)
       - [Ambiente virtual](#ambiente-virtual)
       - [Ambiente convencional](#ambiente-convencional)
+        - [Dependências](#dependências)
 
 <br><br><br><br>
 
@@ -80,7 +80,46 @@ https://miro.com/app/board/uXjVNn0Fy84=/?share_link_id=204593179378
 </div>
 <br><br><br><br>
 
-### Dependências
+
+### Dowload do sistema
+<hr>
+Você pode clonar esse projeto aqui pelo github como zip ou como forma de clone para desenvolvedores
+- https://github.com/THOTIACORP/I2A2-Challanges-Python.git
+
+
+#### Iniciar sistema windowns 
+
+- Clique duas vezes no aquivo
+start.bat
+
+
+#### Ambiente virtual
+
+
+1. **Construa a imagem Docker**: No mesmo diretório do Dockerfile, execute o comando:
+
+```bash
+docker build -t versao_um .
+```
+
+Isso criará uma imagem Docker com o nome especificado
+
+3. **Execute o contêiner**: Depois de construir a imagem, você pode executar o contêiner com o comando:
+
+```bash
+docker run -p 5010:5010 versao_um
+```
+
+Isso iniciará o contêiner em segundo plano.
+Lembre-se de substituir "versao_um" pelo nome que você deseja dar à sua imagem Docker.
+
+
+
+#### Ambiente convencional
+
+
+
+##### Dependências
 <hr>
 
 Requerimentos externo do software 
@@ -96,53 +135,8 @@ Controle de versionamento:
 - https://git-scm.com/downloads [ Não é necessário conta ]
 - https://desktop.github.com/    [ Abrir conta ]
 
-Ambiente virtual 
-- https://docs.docker.com/desktop/install/windows-install/           [ Abrir conta ]
-
 <br><br>
-
-### Dowload do sistema
-<hr>
-
-Agora que você fez todos dowloads instalou, criou as conta e logou 
-- Abra o githubdesktop e clone o esse projeto através da url maiores instruções no link abaixo
-- https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop 
-
-Url para clone
-- https://github.com/THOTIACORP/I2A2-Challanges-Python.git
-
 <br><br>
-
-### Rodar o sistema
-<hr>
-
-#### Ambiente virtual
-
-Agora que vc têm o projeto clonado peça o github desktop abrir o projeto com VSCode
-No VSCode peça para abrir um novo terminal e digite os seguintes comandos abaixo:
-Para subir um contêiner Docker execute no terminal do projeto:
-
-1. **Construa a imagem Docker**: No mesmo diretório do Dockerfile, execute o comando:
-
-```bash
-docker build -t versao_um .
-```
-
-Isso criará uma imagem Docker com o nome especificado
-
-3. **Execute o contêiner**: Depois de construir a imagem, você pode executar o contêiner com o comando:
-
-```bash
-docker run -p 5000:5000 versao_um
-```
-
-Isso iniciará o contêiner em segundo plano.
-
-Lembre-se de substituir "versao_um" pelo nome que você deseja dar à sua imagem Docker.
-
-Certifique-se de ajustar o Dockerfile de acordo com a estrutura do seu aplicativo Python (por exemplo, nome do arquivo principal, dependências etc.).
-
-#### Ambiente convencional
 
 Requerimentos externo do software 
 - Faça download dos coomponentes abaixo 
