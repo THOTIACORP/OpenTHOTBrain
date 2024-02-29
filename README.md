@@ -59,11 +59,8 @@ https://www.figma.com/community/file/1344883461205069126
 Escala de eventos 
 
 <div align="center">
-
-![Logo](./public/assets/img/Req-Res.png)
-
+  <img src="./public/assets/img/Req-Res.png" alt="Logo" style="width: 50%;">
 </div>
-
 
 <br><br><br><br>
 
