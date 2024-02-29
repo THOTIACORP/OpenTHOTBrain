@@ -24,7 +24,7 @@ Projeto: OPEN THOT Brain
     - [Lógica do sistema de back-end](#lógica-do-sistema-de-back-end)
     - [Recursos do sistema](#recursos-do-sistema)
     - [Dowload do sistema](#dowload-do-sistema)
-      - [Iniciar sistema windowns](#iniciar-sistema-windowns)
+    - [Iniciar sistema windowns](#iniciar-sistema-windowns)
       - [Ambiente virtual](#ambiente-virtual)
       - [Ambiente convencional](#ambiente-convencional)
         - [Dependências](#dependências)
@@ -83,11 +83,13 @@ https://miro.com/app/board/uXjVNn0Fy84=/?share_link_id=204593179378
 
 ### Dowload do sistema
 <hr>
+
 Você pode clonar esse projeto aqui pelo github como zip ou como forma de clone para desenvolvedores
 - https://github.com/THOTIACORP/I2A2-Challanges-Python.git
 
 
-#### Iniciar sistema windowns 
+### Iniciar sistema windowns 
+<hr>
 
 - Clique duas vezes no aquivo
 start.bat
