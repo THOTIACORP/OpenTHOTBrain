@@ -90,11 +90,10 @@ Requerimentos externo do software
  <br><br>
 
 IDE - Ambiente de Desenvolvimento Integrado - programa para abrir a pasta do software e te auxiliar a codar
-- VSCode não é necessário conta
-- https://code.visualstudio.com/download
+- https://code.visualstudio.com/download [ Não é necessário conta ]
 
 Controle de versionamento:
-- https://git-scm.com/downloads
+- https://git-scm.com/downloads [ Não é necessário conta ]
 - https://desktop.github.com/    [ Abrir conta ]
 
 Ambiente virtual 
