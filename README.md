@@ -117,10 +117,21 @@ Os desenvolvedores podem analisar o sistema e implementar atualizações livreme
 Você também pode querer contribuir financeiramente com este projeto, ajudando a cobrir os custos de desenvolvimento, manutenção e hospedagem do software
 
 - ✅ [ PIX ] 
+- ✅ Ronnei Borges Peres
+- ✅ Telefone 
 ```bash
 66 996675486
 ```
-- ✅ Ronnei Borges Peres
+- ✅ Copia e cola 
+```bash
+00020126360014BR.GOV.BCB.PIX0114+55669966754865204000053039865802BR5913Ronnei Borges6013ALTO ARAGUAIA62240520Software de Analises6304D7C4
+```
+- ✅ QR Code 
+  <div align="center">
+
+  
+  <img src="./public/assets/img/qrcode-pix.png" alt="Logo" style="width: 75%;">
+</div>
 <br><br><br><br>
 
 #### Porque contribuir 
