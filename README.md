@@ -42,7 +42,7 @@ Projeto: OPEN THOT Brain
 - Sistema utiliza ferramentas de ultima geração
 - Sistema dispensa conhecimento em programação para uso
 - Sistema com UI/UX interface de usuário intuitiva
-- Sistema preparado pra interpretar as tarefas do curso e qualquer outra com similaridade
+- Sistema preparado pra interpretar os dados automaticamente ou semi
 - Sistema com instruções AAA de ponta a ponta
 - Sistema desenvolvido pela comunidade pensando em auxiliar os anaslistas de dados
 <br><br><br><br>
