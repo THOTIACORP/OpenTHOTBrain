@@ -87,6 +87,8 @@ https://miro.com/app/board/uXjVNn0Fy84=/?share_link_id=204593179378
 Você pode clonar esse projeto aqui pelo github como zip ou como forma de clone para desenvolvedores
 - https://github.com/THOTIACORP/I2A2-Challanges-Python.git
 
+<br><br><br><br>
+
 
 ### Iniciar sistema windowns 
 <hr>
@@ -94,6 +96,7 @@ Você pode clonar esse projeto aqui pelo github como zip ou como forma de clone 
 - Clique duas vezes no aquivo
 start.bat
 
+<br><br><br><br>
 
 #### Ambiente virtual
 
@@ -119,6 +122,7 @@ Lembre-se de substituir "versao_um" pelo nome que você deseja dar à sua imagem
 
 #### Ambiente convencional
 
+<br><br><br><br>
 
 
 ##### Dependências
