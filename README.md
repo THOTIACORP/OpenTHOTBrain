@@ -57,7 +57,9 @@ https://www.figma.com/community/file/1344883461205069126
 
 ### Lógica do sistema de front-end
 <hr>
-Escala de eventos req / res - usuário pergunta(req) máquina responde(res)  
+Escala de eventos req / res 
+
+- usuário pergunta(req) máquina responde(res)  
 
 <div align="center">
   <img src="./public/assets/img/Req-Res.png" alt="Logo" style="width: 75%;">
