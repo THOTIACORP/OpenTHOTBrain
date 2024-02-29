@@ -4,12 +4,14 @@
 </div>
 <br><br>
 
-Projeto: OPEN THOT Brain
 - ✅ Transformando dados em resultados. O poder em suas mãos
 - ✅ Aprenda com o passado e o presente, preveja tendências e comportamentos futuros
 - ✅ Descubra oportunidades ocultas, identifique padrões emergentes e tome decisões informadas com confiança
 - ✅ Essa solução capacita você a alcançar novos patamares de sucesso e excelência
 - ✅ Comece a utilizar agora mesmo online [clique aqui](http://thotiacorp.com.br:5010/) !!!
+
+Projeto: OPEN THOT Brain
+
 <br><br><br><br>
 
 ## Sumário  
@@ -113,7 +115,6 @@ Os desenvolvedores podem analisar o sistema e implementar atualizações livreme
 - 
 
 </div>
-<br><br><br><br>
 
 #### Contribuindo como patrocinador
 Você também pode querer contribuir financeiramente com este projeto, ajudando a cobrir os custos de desenvolvimento, manutenção e hospedagem do software
