@@ -24,7 +24,8 @@ Projeto: OPEN THOT Brain
     - [Lógica do sistema de back-end](#lógica-do-sistema-de-back-end)
     - [Recursos do sistema](#recursos-do-sistema)
     - [Dowload do sistema](#dowload-do-sistema)
-    - [Iniciar sistema windowns](#iniciar-sistema-windowns)
+    - [Iniciar sistema](#iniciar-sistema)
+      - [Windowns](#windowns)
       - [Ambiente virtual](#ambiente-virtual)
       - [Ambiente convencional](#ambiente-convencional)
         - [Dependências](#dependências)
@@ -90,9 +91,10 @@ Você pode clonar esse projeto aqui pelo github como zip ou como forma de clone 
 <br><br><br><br>
 
 
-### Iniciar sistema windowns 
+### Iniciar sistema
 <hr>
 
+####  Windowns 
 - Clique duas vezes no aquivo
 start.bat
 
@@ -117,12 +119,10 @@ docker run -p 5010:5010 versao_um
 
 Isso iniciará o contêiner em segundo plano.
 Lembre-se de substituir "versao_um" pelo nome que você deseja dar à sua imagem Docker.
-
-
+<br><br><br><br>
 
 #### Ambiente convencional
 
-<br><br><br><br>
 
 
 ##### Dependências
