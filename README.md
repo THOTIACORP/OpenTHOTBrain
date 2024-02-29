@@ -116,7 +116,8 @@ Os desenvolvedores podem analisar o sistema e implementar atualizações livreme
 #### Contribuindo como patrocinador
 Você também pode querer contribuir financeiramente com este projeto, ajudando a cobrir os custos de desenvolvimento, manutenção e hospedagem do software
 
-- ✅ [Doe aqui](http://campanhadobem.com/software-de-analises-de-dados-aprimoramento-e-manutencao)
+- ✅ [ PIX ] 66 996675486
+- ✅ Ronnei Borges Peres
 <br><br><br><br>
 
 #### Porque contribuir 
