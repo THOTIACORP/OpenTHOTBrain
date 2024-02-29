@@ -23,6 +23,7 @@ Projeto: OPEN THOT Brain
     - [Lógica do sistema de front-end](#lógica-do-sistema-de-front-end)
     - [Lógica do sistema de back-end](#lógica-do-sistema-de-back-end)
     - [Recursos do sistema](#recursos-do-sistema)
+      - [Análises quatitativas](#análises-quatitativas)
     - [Dowload do sistema](#dowload-do-sistema)
     - [Iniciar sistema](#iniciar-sistema)
       - [Windowns](#windowns)
@@ -56,10 +57,10 @@ https://www.figma.com/community/file/1344883461205069126
 
 ### Lógica do sistema de front-end
 <hr>
-Escala de eventos 
+Escala de eventos req / res - usuário pergunta(req) máquina responde(res)  
 
 <div align="center">
-  <img src="./public/assets/img/Req-Res.png" alt="Logo" style="width: 50%;">
+  <img src="./public/assets/img/Req-Res.png" alt="Logo" style="width: 75%;">
 </div>
 
 <br><br><br><br>
@@ -77,13 +78,10 @@ https://miro.com/app/board/uXjVNn0Fy84=/?share_link_id=204593179378
 ### Recursos do sistema
 <hr>
 
-- ✅ Correlações de Pearson
-- ✅ Correlações de Spearman
-<div align="center">
+#### Análises quatitativas
 
-![Logo](./public/assets/img/0001.jpg)
-![Logo](./public/assets/img/0002.jpg)
-</div>
+- ✅ [Correlações de Pearson](/src/front-end/src/pages/analysis/Readme.md)
+- ✅ [Correlações de Spearman](/src/front-end/src/pages/analysis/Readme.md)
 <br><br><br><br>
 
 
