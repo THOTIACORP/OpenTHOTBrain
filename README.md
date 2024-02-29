@@ -126,7 +126,6 @@ Lembre-se de substituir "versao_um" pelo nome que você deseja dar à sua imagem
 
 
 ##### Dependências
-<hr>
 
 Requerimentos externo do software 
 - Faça download dos coomponentes abaixo 
