@@ -24,6 +24,9 @@ Projeto: OPEN THOT Brain
     - [Lógica do sistema de back-end](#lógica-do-sistema-de-back-end)
     - [Recursos do sistema](#recursos-do-sistema)
       - [Análises quatitativas](#análises-quatitativas)
+    - [Como contribuir com o projeto](#como-contribuir-com-o-projeto)
+      - [Desenvolvedores](#desenvolvedores)
+      - [Patrocinadores](#patrocinadores)
     - [Dowload do sistema](#dowload-do-sistema)
     - [Iniciar sistema](#iniciar-sistema)
       - [Windowns](#windowns)
@@ -71,7 +74,7 @@ https://www.figma.com/community/file/1344883461205069126
 
 ### Lógica do sistema de back-end
 <hr>
-Escala de eventos req / res: comunicação (`H2M`) e (`M2M`) Máquina Máquina 
+Escala de eventos req / res: comunicação [``H2M``] e (`M2M`) Máquina Máquina 
 
 <div align="center">
 
@@ -86,20 +89,30 @@ https://miro.com/app/board/uXjVNn0Fy84=/?share_link_id=204593179378
 
 #### Análises quatitativas
 
-- ✅ [(PCA) Análise de Componentes Principais]
+- ✅ [(PCA) Análise de Componentes Principais]()
 - ✅ [Correlações de Pearson](/src/front-end/src/pages/analysis/Readme.md)
 - ✅ [Correlações de Spearman](/src/front-end/src/pages/analysis/Readme.md)
 <br><br><br><br>
 
-### Distribuição de tarefas do projeto
+### Como contribuir com o projeto
 <hr>
 
-- Jirra
+Projeto aberto desenvolvido pela comunidade 
+
+#### Desenvolvedores
+Os desenvolvedores podem analisar o sistema e implementar atualizações livremente então essas serão revisadas e aplicadas  
+
+
+- As distribuições de tarefas estão no Jirra
+
 <div align="center">
 
-
+- 
 
 </div>
+
+#### Patrocinadores
+Você pode querer contribuir financeiramente com este projeto 
 
 <br><br><br><br>
 
