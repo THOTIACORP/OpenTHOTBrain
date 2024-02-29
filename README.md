@@ -100,6 +100,7 @@ https://miro.com/app/board/uXjVNn0Fy84=/?share_link_id=204593179378
 <hr>
 
 Projeto OPEN aberto, desenvolvido pela comunidade
+<br><br><br><br>
 
 #### Contribuindo como desenvolvedor
 Os desenvolvedores podem analisar o sistema e implementar atualizações livremente então essas serão revisadas e aplicadas  
@@ -112,6 +113,7 @@ Os desenvolvedores podem analisar o sistema e implementar atualizações livreme
 - 
 
 </div>
+<br><br><br><br>
 
 #### Contribuindo como patrocinador
 Você também pode querer contribuir financeiramente com este projeto, ajudando a cobrir os custos de desenvolvimento, manutenção e hospedagem do software
@@ -122,11 +124,11 @@ Você também pode querer contribuir financeiramente com este projeto, ajudando 
 ```bash
 66 996675486
 ```
-- ✅ Copia e cola 
+- ✅ Copia e cola qualquer valor
 ```bash
 00020126360014BR.GOV.BCB.PIX0114+55669966754865204000053039865802BR5913Ronnei Borges6013ALTO ARAGUAIA62240520Software de Analises6304D7C4
 ```
-- ✅ QR Code 
+- ✅ QR Code qualquer valor
   <div align="center">
 
   
