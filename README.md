@@ -12,8 +12,7 @@ Projeto: OPEN THOT Brain
 - ✅ Aprenda com o passado e o presente, preveja tendências e comportamentos futuros
 - ✅ Descubra oportunidades ocultas, identifique padrões emergentes e tome decisões informadas com confiança
 - ✅ Essa solução capacita você a alcançar novos patamares de sucesso e excelência
-- ✅ Comece a utilizar agora mesmo !!!
-
+- ✅ Comece a utilizar agora mesmo [clique aqui](http://thotiacorp.com.br:5010/) !!!
 <br><br><br><br>
 
 ## Sumário  
