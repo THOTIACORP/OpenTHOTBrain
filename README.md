@@ -118,7 +118,7 @@ Url para clone
 <hr>
 
 #### Ambiente virtual
-<hr>
+
 Agora que vc têm o projeto clonado peça o github desktop abrir o projeto com VSCode
 No VSCode peça para abrir um novo terminal e digite os seguintes comandos abaixo:
 Para subir um contêiner Docker execute no terminal do projeto:
@@ -144,7 +144,6 @@ Lembre-se de substituir "versao_um" pelo nome que você deseja dar à sua imagem
 Certifique-se de ajustar o Dockerfile de acordo com a estrutura do seu aplicativo Python (por exemplo, nome do arquivo principal, dependências etc.).
 
 #### Ambiente convencional
-<hr>
 
 Requerimentos externo do software 
 - Faça download dos coomponentes abaixo 
