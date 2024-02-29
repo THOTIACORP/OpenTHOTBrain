@@ -25,7 +25,7 @@ Projeto: OPEN THOT Brain
     - [Como contribuir com o projeto](#como-contribuir-com-o-projeto)
       - [Contribuindo como desenvolvedor](#contribuindo-como-desenvolvedor)
       - [Contribuindo como patrocinador](#contribuindo-como-patrocinador)
-      - [Poruqe contribuir](#poruqe-contribuir)
+      - [Porque contribuir](#porque-contribuir)
     - [Dowload do sistema](#dowload-do-sistema)
     - [Iniciar sistema](#iniciar-sistema)
       - [Windowns](#windowns)
@@ -119,7 +119,7 @@ Você também pode querer contribuir financeiramente com este projeto, ajudando 
 - ✅ [Doe aqui](http://campanhadobem.com/software-de-analises-de-dados-aprimoramento-e-manutencao)
 <br><br><br><br>
 
-#### Poruqe contribuir 
+#### Porque contribuir 
 Contribuir com o projeto é essencial para ajudar a desenvolver e aprimorar a ferramenta para análise de dados e tomada de decisões informadas, assim se você utiliza ou têm propenção a auxiliar em grandes causas esse é o projeto correto
 
 Como software OPEN não temos renda desse sistema ele é de uso e implementação gratuita então dependemos inteiramente da comunidade para continuar prestando esses serviços na mais alta qualidade possível empre 
