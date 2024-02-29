@@ -116,11 +116,11 @@ Os desenvolvedores podem analisar o sistema e implementar atualizações livreme
 #### Contribuindo como patrocinador
 Você também pode querer contribuir financeiramente com este projeto, ajudando a cobrir os custos de desenvolvimento, manutenção e hospedagem do software
 
-- ✅ 
+- ✅ [Doe aqui](http://campanhadobem.com/software-de-analises-de-dados-aprimoramento-e-manutencao)
 <br><br><br><br>
 
 #### Poruqe contribuir 
-Contribuir com o projeto é essencial para ajudar a desenvolver e aprimorar a ferramenta para análise de dados e tomada de decisões informadas 
+Contribuir com o projeto é essencial para ajudar a desenvolver e aprimorar a ferramenta para análise de dados e tomada de decisões informadas, assim se você utiliza ou têm propenção a auxiliar em grandes causas esse é o projeto correto
 
 Como software OPEN não temos renda desse sistema ele é de uso e implementação gratuita então dependemos inteiramente da comunidade para continuar prestando esses serviços na mais alta qualidade possível empre 
 <br><br><br><br>
