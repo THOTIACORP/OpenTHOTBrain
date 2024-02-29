@@ -44,8 +44,9 @@ Projeto: OPEN THOT Brain
 ### Imagens do sistema
 <div align="center">
 
-![Logo](./public/assets/img/0001.jpg)
-![Logo](./public/assets/img/0001.jpg)
+![Logo](./public/assets/img/Front-end.png)
+
+
 </div>
 <br><br><br><br>
 
@@ -61,7 +62,11 @@ https://miro.com/app/board/uXjVNn0Fy84=/?share_link_id=204593179378
 ### Recursos do sistema
 - ✅ Correlações de Pearson
 - ✅ Correlações de Spearman
+<div align="center">
 
+![Logo](./public/assets/img/0001.jpg)
+![Logo](./public/assets/img/0002.jpg)
+</div>
 <br><br><br><br>
 
 ### Dependências
