@@ -57,18 +57,22 @@ https://www.figma.com/community/file/1344883461205069126
 
 ### Lógica do sistema de front-end
 <hr>
-Escala de eventos req / res 
-
-- usuário pergunta(req) máquina responde(res)  
+Escala de eventos req / res: (`H2M`) comunicação Humano Máquina 
+- Usuário pergunta(`req`) máquina responde(`res`)  
 
 <div align="center">
   <img src="./public/assets/img/Req-Res.png" alt="Logo" style="width: 75%;">
+
+https://www.figma.com/community/file/1344883461205069126
+
 </div>
 
 <br><br><br><br>
 
 ### Lógica do sistema de back-end
 <hr>
+Escala de eventos req / res: comunicação (`H2M`) e (`M2M`) Máquina Máquina 
+
 <div align="center">
 
 ![Logo](./public/assets/img/Mirro.png)
@@ -82,8 +86,21 @@ https://miro.com/app/board/uXjVNn0Fy84=/?share_link_id=204593179378
 
 #### Análises quatitativas
 
+- ✅ [(PCA) Análise de Componentes Principais]
 - ✅ [Correlações de Pearson](/src/front-end/src/pages/analysis/Readme.md)
 - ✅ [Correlações de Spearman](/src/front-end/src/pages/analysis/Readme.md)
+<br><br><br><br>
+
+### Distribuição de tarefas do projeto
+<hr>
+
+- Jirra
+<div align="center">
+
+
+
+</div>
+
 <br><br><br><br>
 
 
