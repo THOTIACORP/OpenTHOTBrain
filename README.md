@@ -3,6 +3,7 @@
 # Software de Análises de Dados Automático 
 </div>
 <br><br>
+<div align="justify">
 
 - ✅ Transformando dados em resultados. O poder em suas mãos
   
@@ -16,7 +17,7 @@
 
 <br><br>
 Nome do projeto: OPEN THOT Brain - Projeto aberto de uso gratuito OPEN Source, utilize online ou ainda baixe e implemente facilmente no seu sistema com dois cliques 
-
+</div>
 <br><br><br><br>
 
 ## Sumário  
@@ -44,7 +45,8 @@ Nome do projeto: OPEN THOT Brain - Projeto aberto de uso gratuito OPEN Source, u
 
 ### Qualidades do sistema
 <hr>
-
+<div align="justify">
+  
 - Sistema webdev com funções recursivas dinâmicas
 - Sistema utiliza ferramentas de ultima geração
 - Sistema dispensa conhecimento em programação para uso
@@ -52,6 +54,7 @@ Nome do projeto: OPEN THOT Brain - Projeto aberto de uso gratuito OPEN Source, u
 - Sistema preparado pra interpretar os dados automaticamente ou semi
 - Sistema com instruções AAA de ponta a ponta
 - Sistema desenvolvido pela comunidade pensando em auxiliar os anaslistas de dados
+</div>
 <br><br><br><br>
 
 ### Imagens do sistema
@@ -112,15 +115,20 @@ https://miro.com/app/board/uXjVNn0Fy84=/?share_link_id=204593179378
 ### Como contribuir com o projeto
 <hr>
 
-Projeto OPEN aberto, desenvolvido pela comunidade
+<div align="justify">
+Projeto OPEN Source; aberto; de uso gratuito 🆓 , desenvolvido pela comunidade
+</div>
 <br><br><br><br>
 
 #### Contribuindo como desenvolvedor
+<div align="justify">
 Os desenvolvedores podem analisar o sistema e implementar atualizações livremente então essas serão revisadas e então aplicadas  
 
 
 - ✅ As distribuições de tarefas estão no Jirra
 - ✅ Você tambem pode inferir novas tarefas para o software livremente 
+
+</div>
 <div align="center">
 
 - 
@@ -128,33 +136,54 @@ Os desenvolvedores podem analisar o sistema e implementar atualizações livreme
 </div>
 
 #### Contribuindo como patrocinador
-Você também pode querer contribuir financeiramente com este projeto, ajudando a cobrir os custos de desenvolvimento, manutenção e hospedagem do software
+
+<div align="justify">
+Você pode gentilmente querer contribuir financeiramente com este projeto, ajudando a cobrir os custos de desenvolvimento, manutenção e hospedagem do software
 
 - ✅ [ PIX ] 
 - ✅ Ronnei Borges Peres
-- ✅ Telefone 
+- 🔑 Telefone 
 ```bash
 66 996675486
 ```
-- ✅ Copia e cola qualquer valor
+-  🔑 Copia e cola
 ```bash
 00020126360014BR.GOV.BCB.PIX0114+55669966754865204000053039865802BR5913Ronnei Borges6013ALTO ARAGUAIA62240520Software de Analises6304D7C4
 ```
-- ✅ QR Code qualquer valor
+- 🔑 QR Code
+
+</div>
   <div align="center">
 
   
-  <img src="./public/assets/img/qrcode-pix.png" alt="Logo" style="width: 75%;">
+  <img src="./public/assets/img/qrcode-pix.png" alt="Logo">
 </div>
 <br><br><br><br>
 
 #### Porque contribuir 
-Contribuir com o projeto é essencial para ajudar a desenvolver e aprimorar a ferramenta para análise de dados e tomada de decisões informadas, assim se você utiliza ou têm propenção a auxiliar em grandes causas esse é o projeto correto
+<div align="justify">
+Contribuir com o projeto é essencial para ajudar a desenvolver e aprimorar a ferramenta para análise de dados e tomada de decisões informadas
 
-Como software é OPEN Source não temos renda desse sistema ele é de uso e implementação gratuita então dependemos inteiramente da comunidade para continuar prestando esses serviços na mais alta qualidade possível sempre
+Caso utilize o software ou têm propenção a auxiliar em grandes causas esse é o projeto correto veja
 
-Se vc pouder doar wualquer quantia  será muito bem vindo e abençoado 
+Como software é OPEN Source não temos renda desse sistema ele é de uso e implementação gratuita então dependemos inteiramente da comunidade para continuar prestando esses serviços na mais alta qualidade possível; sempre
+
+Se vc pouder doar qualquer quantia  será muito bem vindo e abençoado 
 <br><br><br><br>
+
+
+### Projeção de uso computiconal
+<hr>
+A eficiência depende do inteiramente do servidor
+
+
+No servidor online o serviço pelo baixo recurso ainda a taxa que deixamos aberta é baixa
+
+
+No entanto você pode rodar esse sistema em nó de supercomputadores com container e orquestração desses o que pode torna a resposta muita mais rápida que no próprio sistema online
+
+
+Também haverá computação quântica em 2025 o sistema estará preparado para performar sistema altamente eficiente 
 
 
 ### Dowload do sistema
