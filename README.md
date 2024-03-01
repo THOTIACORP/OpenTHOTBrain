@@ -1,6 +1,6 @@
 <div align="center">
   
-# Software de Análises de Dados
+# Software de Análises de Dados Automático 
 </div>
 <br><br>
 
