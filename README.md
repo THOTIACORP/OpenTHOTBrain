@@ -5,12 +5,16 @@
 <br><br>
 
 - ✅ Transformando dados em resultados. O poder em suas mãos
+  
 - ✅ Aprenda com o passado e o presente, preveja tendências e comportamentos futuros
+  
 - ✅ Descubra oportunidades ocultas, identifique padrões emergentes e tome decisões informadas com confiança
+  
 - ✅ Essa solução capacita você a alcançar novos patamares de sucesso e excelência
-- ✅ Comece a utilizar agora mesmo online [clique aqui](http://thotiacorp.com.br:5010/) !!!
+  
+- ✅ Comece a utilizar agora mesmo de forma online [clique aqui](http://thotiacorp.com.br:5010/) !!!
 
-Projeto: OPEN THOT Brain
+Projeto: OPEN THOT Brain - projeto aberto de uso gratuito OPEN Source, utilize online ou ainda baixe e implemente facilmente no seu sistema com dois cliques 
 
 <br><br><br><br>
 
@@ -61,8 +65,9 @@ https://www.figma.com/community/file/1344883461205069126
 
 ### Lógica do sistema de front-end
 <hr>
-Escala de eventos req / res: (`H2M`) comunicação Humano Máquina 
-- Usuário pergunta(`req`) máquina responde(`res`)  
+Escala de eventos req / res: 
+- ✅ (`H2M`) Comunicação Humano Máquina 
+- ✅ Usuário pergunta(`req`) máquina responde(`res`)  
 
 <div align="center">
   <img src="./public/assets/img/Req-Res.png" alt="Logo" style="width: 75%;">
@@ -75,7 +80,10 @@ https://www.figma.com/community/file/1344883461205069126
 
 ### Lógica do sistema de back-end
 <hr>
-Escala de eventos req / res: comunicação [``H2M``] e (`M2M`) Máquina Máquina 
+Escala de eventos req / res: 
+- ✅ 1° Comunicação [``H2M``]
+- ✅ 2° Comunicação (`M2M`) Máquina Máquina
+- ✅ 3° Comunicação M2H  Máquina Humano
 
 <div align="center">
 
@@ -105,11 +113,11 @@ Projeto OPEN aberto, desenvolvido pela comunidade
 <br><br><br><br>
 
 #### Contribuindo como desenvolvedor
-Os desenvolvedores podem analisar o sistema e implementar atualizações livremente então essas serão revisadas e aplicadas  
+Os desenvolvedores podem analisar o sistema e implementar atualizações livremente então essas serão revisadas e então aplicadas  
 
 
 - ✅ As distribuições de tarefas estão no Jirra
-- ✅ Você tambem pode inferir novas tarefas software livre 
+- ✅ Você tambem pode inferir novas tarefas para o software livremente 
 <div align="center">
 
 - 
@@ -140,7 +148,9 @@ Você também pode querer contribuir financeiramente com este projeto, ajudando 
 #### Porque contribuir 
 Contribuir com o projeto é essencial para ajudar a desenvolver e aprimorar a ferramenta para análise de dados e tomada de decisões informadas, assim se você utiliza ou têm propenção a auxiliar em grandes causas esse é o projeto correto
 
-Como software OPEN não temos renda desse sistema ele é de uso e implementação gratuita então dependemos inteiramente da comunidade para continuar prestando esses serviços na mais alta qualidade possível empre 
+Como software é OPEN Source não temos renda desse sistema ele é de uso e implementação gratuita então dependemos inteiramente da comunidade para continuar prestando esses serviços na mais alta qualidade possível sempre
+
+Se vc pouder doar wualquer quantia  será muito bem vindo e abençoado 
 <br><br><br><br>
 
 
