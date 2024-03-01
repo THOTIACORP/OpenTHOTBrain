@@ -14,7 +14,8 @@
   
 - ✅ Comece a utilizar agora mesmo de forma online [clique aqui](http://thotiacorp.com.br:5010/) !!!
 
-Projeto: OPEN THOT Brain - projeto aberto de uso gratuito OPEN Source, utilize online ou ainda baixe e implemente facilmente no seu sistema com dois cliques 
+<br><br>
+Nome do projeto: OPEN THOT Brain - Projeto aberto de uso gratuito OPEN Source, utilize online ou ainda baixe e implemente facilmente no seu sistema com dois cliques 
 
 <br><br><br><br>
 
@@ -66,6 +67,7 @@ https://www.figma.com/community/file/1344883461205069126
 ### Lógica do sistema de front-end
 <hr>
 Escala de eventos req / res: 
+
 - ✅ (`H2M`) Comunicação Humano Máquina 
 - ✅ Usuário pergunta(`req`) máquina responde(`res`)  
 
@@ -81,6 +83,7 @@ https://www.figma.com/community/file/1344883461205069126
 ### Lógica do sistema de back-end
 <hr>
 Escala de eventos req / res: 
+
 - ✅ 1° Comunicação [``H2M``]
 - ✅ 2° Comunicação (`M2M`) Máquina Máquina
 - ✅ 3° Comunicação M2H  Máquina Humano
