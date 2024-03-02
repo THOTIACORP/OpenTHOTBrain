@@ -21,7 +21,11 @@
   
 ## Introdução
 </div>
-<strong> OPEN THOT Brain </strong>- Projeto aberto de uso gratuito OPEN Source, utilize online ou ainda baixe e implemente facilmente no seu sistema com dois cliques - ⚠️ Atenção considere fortemente e gentilmente auxiliar o projeto para que ele não tenha propagandas ou requisitos dessa mesma natureza entre outros é um ato de generosidade e gratidão com a comunidade desenvolvedora
+<strong> OPEN THOT Brain </strong>- 
+
+Projeto aberto de uso gratuito OPEN Source, utilize online ou ainda baixe e implemente facilmente no seu sistema com dois cliques - ⚠️ Atenção considere fortemente e gentilmente auxiliar o projeto para que ele não tenha propagandas ou requisitos dessa mesma natureza entre outros é um ato de generosidade e gratidão com a comunidade desenvolvedora  -[Clique aqui](#informações-para-contribuir)
+
+
 
 <br><br>
 
