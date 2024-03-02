@@ -16,9 +16,15 @@
 - ✅ Comece a utilizar agora mesmo de forma online [clique aqui](http://thotiacorp.com.br:5010/) !!!
 
 <br><br>
-<strong>Nome do projeto: OPEN THOT Brain </strong>- Projeto aberto de uso gratuito OPEN Source, utilize online ou ainda baixe e implemente facilmente no seu sistema com dois cliques - ⚠️ Atenção considere fortemente auxiliar o projeto para que ele não tenha propagandas ou requisitos dessa mesma natureza entre outros é um ato de generosidade e gratidão
+
+<div align="center">
+  
+## Introdução
+</div>
+<strong> OPEN THOT Brain </strong>- Projeto aberto de uso gratuito OPEN Source, utilize online ou ainda baixe e implemente facilmente no seu sistema com dois cliques - ⚠️ Atenção considere fortemente e gentilmente auxiliar o projeto para que ele não tenha propagandas ou requisitos dessa mesma natureza entre outros é um ato de generosidade e gratidão com a comunidade desenvolvedora
 
 <br><br>
+
 <strong>Objetivos primários do projeto:</strong> Mostrar de forma automática ou semi-automática dependendo da escolha do usuário todas as dores dos dados 🎲 atravéz de funções recursivas dinâmicas e gerar os relatórios pertinentes também automaticamente 
 <br><br>
 <strong>Justificativa do projeto:</strong> Nas venda de produtos e serviços tecnológicos em feiras de inovação onde reuniam vários especuladores, empresas e as vezes alguns curiosos, nós levavamos nossos produtos e serviços altamente tecnológicos para tentar negociar, coisa comum do meio de startup. 
@@ -34,6 +40,7 @@ O OPEN THOT Brain vai além de ser apenas uma ferramenta tecnológica - ele tem 
 
 ## Sumário  
 - [Software de Análises de Dados Automático](#software-de-análises-de-dados-automático)
+  - [Introdução](#introdução)
   - [Sumário](#sumário)
     - [Qualidades do sistema](#qualidades-do-sistema)
     - [Imagens do sistema](#imagens-do-sistema)
