@@ -21,19 +21,22 @@ Nome do projeto: OPEN THOT Brain - Projeto aberto de uso gratuito OPEN Source, u
 <br><br><br><br>
 
 ## Sumário  
-- [Software de Análises de Dados](#software-de-análises-de-dados)
+- [Software de Análises de Dados Automático](#software-de-análises-de-dados-automático)
   - [Sumário](#sumário)
     - [Qualidades do sistema](#qualidades-do-sistema)
     - [Imagens do sistema](#imagens-do-sistema)
     - [Lógica do sistema de front-end](#lógica-do-sistema-de-front-end)
     - [Lógica do sistema de back-end](#lógica-do-sistema-de-back-end)
     - [Recursos do sistema](#recursos-do-sistema)
+      - [Preparação dos dados](#preparação-dos-dados)
       - [Técnica exploratória descritiva](#técnica-exploratória-descritiva)
       - [Análises quatitativas](#análises-quatitativas)
     - [Como contribuir com o projeto](#como-contribuir-com-o-projeto)
       - [Contribuindo como desenvolvedor](#contribuindo-como-desenvolvedor)
       - [Contribuindo como patrocinador](#contribuindo-como-patrocinador)
+        - [Informações para contribuir](#informações-para-contribuir)
       - [Porque contribuir](#porque-contribuir)
+    - [Projeção de uso computiconal](#projeção-de-uso-computiconal)
     - [Dowload do sistema](#dowload-do-sistema)
     - [Iniciar sistema](#iniciar-sistema)
       - [Windowns](#windowns)
@@ -69,10 +72,14 @@ https://www.figma.com/community/file/1344883461205069126
 
 ### Lógica do sistema de front-end
 <hr>
+
+Comunicação Humano Máquina [`H2M`]
 Escala de eventos req / res: 
 
-- ✅ (`H2M`) Comunicação Humano Máquina 
-- ✅ Usuário pergunta(`req`) máquina responde(`res`)  
+
+- 1️⃣  Usuário pergunta - [`req`] 
+  
+- 2️⃣  Máquina responde - [`res`]  
 
 <div align="center">
   <img src="./public/assets/img/Req-Res.png" alt="Logo" style="width: 75%;">
@@ -85,11 +92,16 @@ https://www.figma.com/community/file/1344883461205069126
 
 ### Lógica do sistema de back-end
 <hr>
+
+Comunicação Humano Máquina [`H2M`] + Comunicação Máquina Máquina [`M2M`] + Comunicação Máquina Humano [`M2H`]
 Escala de eventos req / res: 
 
-- ✅ 1° Comunicação [``H2M``]
-- ✅ 2° Comunicação (`M2M`) Máquina Máquina
-- ✅ 3° Comunicação M2H  Máquina Humano
+
+- 1️⃣ Usuário pergunta - [`req`] 
+  
+- 2️⃣ Comunicação Máquina Máquina [`M2M`] - [`req`] 
+
+- 3️⃣ Comunicação Máquina Humano [`M2H`] - [`res`] 
 
 <div align="center">
 
@@ -101,6 +113,9 @@ https://miro.com/app/board/uXjVNn0Fy84=/?share_link_id=204593179378
 
 ### Recursos do sistema
 <hr>
+
+#### Preparação dos dados
+
 
 ####  Técnica exploratória descritiva
 
@@ -122,7 +137,7 @@ Projeto OPEN Source; aberto; de uso gratuito 🆓 , desenvolvido pela comunidade
 
 #### Contribuindo como desenvolvedor
 <div align="justify">
-Os desenvolvedores podem analisar o sistema e implementar atualizações livremente então essas serão revisadas e então aplicadas  
+Os desenvolvedores podem analisar o sistema e implementar atualizações livremente então essas serão revisadas e então aplicadas através de pull request  
 
 
 - ✅ As distribuições de tarefas estão no Jirra
@@ -138,8 +153,10 @@ Os desenvolvedores podem analisar o sistema e implementar atualizações livreme
 #### Contribuindo como patrocinador
 
 <div align="justify">
-Você pode gentilmente querer contribuir financeiramente com este projeto, ajudando a cobrir os custos de desenvolvimento, manutenção e hospedagem do software
+Você pode gentilmente querer contribuir financeiramente com este projeto, ajudando a cobrir os custos de desenvolvimento, atualizações, manutenção e hospedagem do software
 
+
+##### Informações para contribuir
 - ✅ [ PIX ] 
 - ✅ Ronnei Borges Peres
 - 🔑 Telefone 
@@ -163,11 +180,11 @@ Você pode gentilmente querer contribuir financeiramente com este projeto, ajuda
 #### Porque contribuir 
 <div align="justify">
 Contribuir com o projeto é essencial para ajudar a desenvolver e aprimorar a ferramenta para análise de dados e tomada de decisões informadas
-
+<br>
 Caso utilize o software ou têm propenção a auxiliar em grandes causas esse é o projeto correto veja
-
+<br>
 Como software é OPEN Source não temos renda desse sistema ele é de uso e implementação gratuita então dependemos inteiramente da comunidade para continuar prestando esses serviços na mais alta qualidade possível; sempre
-
+<br>
 Se vc pouder doar qualquer quantia  será muito bem vindo e abençoado 
 <br><br><br><br>
 
