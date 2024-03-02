@@ -23,7 +23,7 @@
 </div>
 <strong> OPEN THOT Brain </strong>
 
-Projeto aberto de uso gratuito OPEN Source, utilize online ou ainda baixe e implemente facilmente no seu sistema com dois cliques - ⚠️ Atenção considere fortemente e gentilmente auxiliar o projeto para que ele não tenha propagandas ou requisitos dessa mesma natureza entre outros a doação é um ato de generosidade e gratidão para com a sociedade no caminho da plenitude, enriquece a alma- [`Doar expressar meu humanismo`](#informações-para-contribuir)
+Projeto aberto de uso gratuito OPEN Source, utilize online ou ainda baixe e implemente facilmente no seu sistema com dois cliques - ⚠️ Atenção considere fortemente e gentilmente auxiliar o projeto para que ele não tenha propagandas ou requisitos dessa mesma natureza entre outros a doação é um ato de generosidade e gratidão para com a sociedade no caminho da plenitude, enriquece a alma- [`Doar expressar meu ato de humanismo e racionalidade`](#informações-para-contribuir)
 <br><br>
 <strong>Objetivos primários do projeto</strong> <br>
 Mostrar de forma automática ou semi-automática dependendo da escolha do usuário todas as dores dos dados 🎲 atravéz de funções recursivas dinâmicas, após esse passo gerar os relatórios pertinentes também automaticamente 
