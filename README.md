@@ -177,7 +177,7 @@ Você pode gentilmente querer contribuir financeiramente com este projeto, ajuda
 ##### Informações para contribuir
 - ✅ [ Contribuições via PIX ] 
 - ✅ Nome: Ronnei Borges Peres
-- ✅ Cargo: Diretor,cordenador e desenvolvedor do projeto OpenTHOTBrain
+- ✅ Cargo: Diretor, coordenador e desenvolvedor do projeto OpenTHOTBrain
 - 🔑 Telefone 
 ```bash
 66 996675486
