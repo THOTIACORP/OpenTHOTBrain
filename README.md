@@ -30,9 +30,8 @@ Mostrar de forma automática ou semi-automática dependendo da escolha do usuár
 <br><br>
 <strong>Justificativa do projeto</strong><br>
  Nas venda de produtos e serviços tecnológicos em feiras de inovação onde reuniam vários especuladores, empresas e as vezes alguns curiosos, nós levavamos nossos produtos e serviços altamente tecnológicos para tentar negociar; coisas comuns do meio de startup. Mais o resultado foi curioso, com as várias feiras de inovação nós começamos a estudar o comportamento dos especuladores e das empresas e seus gestores e  chegamos a seguinte conclusão, que esses personagens não conheciam as suas dores. [`A realidade cruel literalmente grande maioria das empresas não sabem responder se ao menos têm dores ondem essas dores estam e como atacar esse ponto focal para otimizar processos`]. Então fábricamos essa ferramenta para mudar essa realidade triste das empresas  
-<br><br>
- <strong>Impacto Social</strong><br>
-O OPEN THOT Brain vai além de ser apenas uma ferramenta tecnológica - ele tem um impacto social significativo, contribuindo para o avanço do conhecimento e da inovação em escala global. Ao democratizar o acesso à informação e fortalecer a comunidade global, estamos moldando um futuro onde o conhecimento é verdadeiramente acessível a todos.
+<br>
+<strong>Impacto Social</strong><br>O OPEN THOT Brain vai além de ser apenas uma ferramenta tecnológica - ele tem um impacto social significativo, contribuindo para o avanço do conhecimento e da inovação em escala global. Ao democratizar o acesso à informação e fortalecer a comunidade global, estamos moldando um futuro onde o conhecimento é verdadeiramente acessível a todos.
 
 </div>
 <br><br><br><br>
