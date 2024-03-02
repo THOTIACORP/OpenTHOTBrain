@@ -21,22 +21,27 @@
   
 ## Introdução
 </div>
-<strong> OPEN THOT Brain </strong>- 
+<strong> OPEN THOT Brain </strong> 
 
-Projeto aberto de uso gratuito OPEN Source, utilize online ou ainda baixe e implemente facilmente no seu sistema com dois cliques - ⚠️ Atenção considere fortemente e gentilmente auxiliar o projeto para que ele não tenha propagandas ou requisitos dessa mesma natureza entre outros é um ato de generosidade e gratidão com a comunidade desenvolvedora  -[Clique aqui](#informações-para-contribuir)
+Projeto aberto de uso gratuito OPEN Source, utilize online ou ainda baixe e implemente facilmente no seu sistema com dois cliques - ⚠️ Atenção considere fortemente e gentilmente auxiliar o projeto para que ele não tenha propagandas ou requisitos dessa mesma natureza entre outros a doação é um ato de generosidade e gratidão para com a sociedade no caminho da plenitude -[Clique aqui](#informações-para-contribuir)
 
 
 
 <br><br>
 
-<strong>Objetivos primários do projeto:</strong> Mostrar de forma automática ou semi-automática dependendo da escolha do usuário todas as dores dos dados 🎲 atravéz de funções recursivas dinâmicas e gerar os relatórios pertinentes também automaticamente 
+<strong>Objetivos primários do projeto</strong> 
+
+Mostrar de forma automática ou semi-automática dependendo da escolha do usuário todas as dores dos dados 🎲 atravéz de funções recursivas dinâmicas e gerar os relatórios pertinentes também automaticamente 
 <br><br>
-<strong>Justificativa do projeto:</strong> Nas venda de produtos e serviços tecnológicos em feiras de inovação onde reuniam vários especuladores, empresas e as vezes alguns curiosos, nós levavamos nossos produtos e serviços altamente tecnológicos para tentar negociar, coisa comum do meio de startup. 
+<strong>Justificativa do projeto</strong>
+
+ Nas venda de produtos e serviços tecnológicos em feiras de inovação onde reuniam vários especuladores, empresas e as vezes alguns curiosos, nós levavamos nossos produtos e serviços altamente tecnológicos para tentar negociar, coisa comum do meio de startup. 
 <br>
 Resultado entre várias feiras de inovação nós estudamos o comportamento dos especuladores e das empresas e ses gestores e  chegamos a seguinte conclusão, que esses personagens não conheciam as suas dores. [`A realidade cruel`] literalmente grande maioria das empresas não sabem responder se ao menos têm dores ondem essas dores estam e como atacar esse ponto focal para otimizar processos. Então fábricamos essa ferramenta para mudar essa realidade triste das empresas  
 <br><br>
 
  <strong>Impacto Social</strong>
+ 
 O OPEN THOT Brain vai além de ser apenas uma ferramenta tecnológica - ele tem um impacto social significativo, contribuindo para o avanço do conhecimento e da inovação em escala global. Ao democratizar o acesso à informação e fortalecer a comunidade global, estamos moldando um futuro onde o conhecimento é verdadeiramente acessível a todos.
 
 </div>
