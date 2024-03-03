@@ -2,8 +2,17 @@
   
 # Software de Análises de Dados Automático 
 </div>
+
+
+
 <br><br>
 <div align="justify">
+
+<div align="center">
+
+![Logo](./public/assets/img/analise-de-dados-financeiros.jpg)
+
+</div>
 
 - ✅ Transformando dados em resultados. O poder em suas mãos
   
