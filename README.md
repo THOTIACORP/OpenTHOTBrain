@@ -62,7 +62,7 @@ Mostrar de forma automática ou semi-automática dependendo da escolha do usuár
     - [Recursos do sistema](#recursos-do-sistema)
       - [Preparação dos dados](#preparação-dos-dados)
       - [Técnica exploratória descritiva](#técnica-exploratória-descritiva)
-      - [Análises quatitativas](#análises-quatitativas)
+      - [Análises quantitativas](#análises-quantitativas)
     - [Como contribuir com o projeto](#como-contribuir-com-o-projeto)
       - [Contribuindo como desenvolvedor](#contribuindo-como-desenvolvedor)
       - [Contribuindo como patrocinador](#contribuindo-como-patrocinador)
@@ -71,6 +71,7 @@ Mostrar de forma automática ou semi-automática dependendo da escolha do usuár
     - [Projeção de uso computiconal](#projeção-de-uso-computiconal)
     - [Dowload do sistema](#dowload-do-sistema)
     - [Iniciar sistema](#iniciar-sistema)
+      - [Online](#online)
       - [Windowns](#windowns)
       - [Ambiente virtual](#ambiente-virtual)
       - [Ambiente local](#ambiente-local)
@@ -235,7 +236,7 @@ Também haverá computação quântica em 2025 o sistema estará preparado para 
 ### Dowload do sistema
 <hr>
 
-Você pode clonar esse projeto aqui pelo github como zip ou como forma de clone para desenvolvedores
+Você pode clonar esse projeto aqui pelo github como zip e descompactar na sua pasta de preferencia ou como forma de clone para desenvolvedores
 - https://github.com/THOTIACORP/OpenTHOTBrain
 
 <br><br><br><br>
