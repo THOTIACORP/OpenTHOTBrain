@@ -153,7 +153,7 @@ https://miro.com/app/board/uXjVNn0Fy84=/?share_link_id=204593179378
 
 - ✅ [(PCA) Análise de Componentes Principais]()
 
-#### Análises quatitativas
+#### Análises quantitativas
 
 - ✅ [Correlações de Pearson](/src/front-end/src/pages/analysis/Readme.md)
 - ✅ [Correlações de Spearman](/src/front-end/src/pages/analysis/Readme.md)
