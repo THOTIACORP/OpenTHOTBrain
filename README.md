@@ -218,7 +218,7 @@ Caso utilize o software ou têm propenção a auxiliar em grandes causas esse é
 <br><br>
 Como software é OPEN Source não temos renda desse sistema ele é de uso e implementação gratuita então dependemos inteiramente da comunidade para continuar prestando esses serviços na mais alta qualidade possível; sempre
 <br><br>
-Se vc pouder doar qualquer quantia  será muito bem vindo e abençoado 
+Se vc pouder doar qualquer quantia  será muito bem vindo e abençoado [**👉 clique aqui e faça sua doação para esse projeto social de grande importância e impacto 👈**](#informações-para-contribuir)
 <br><br><br><br>
 
 
