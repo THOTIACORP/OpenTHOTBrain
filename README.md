@@ -17,7 +17,7 @@
   
 - ✅ Essa solução capacita você a alcançar novos patamares de sucesso e excelência
   
-- ✅ Comece a utilizar agora mesmo de forma online [clique aqui](http://thotiacorp.com.br:5010/) !!!
+- ✅ Comece a utilizar agora mesmo de forma online veja mais !!!
 
 <br><br>
 
@@ -243,6 +243,9 @@ Você pode clonar esse projeto aqui pelo github como zip ou como forma de clone 
 
 ### Iniciar sistema
 <hr>
+
+#### Online
+-  [clique aqui](http://thotiacorp.com.br:5010/)
 
 ####  Windowns 
 - Clique duas vezes no aquivo
