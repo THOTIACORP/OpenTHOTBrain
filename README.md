@@ -252,8 +252,10 @@ Você pode clonar esse projeto aqui pelo github como zip e descompactar na sua p
 
 ####  Windowns 
 - Ambiente Local Nuvem - Clique duas vezes no aquivo
-start.bat
+start-nuvem.bat
 
+- Ambiente Local - Clique duas vezes no aquivo
+start.bat
 <br><br><br><br>
 
 #### Ambiente virtual
@@ -277,20 +279,4 @@ Isso iniciará o contêiner em segundo plano.
 Lembre-se de substituir "versao_um" pelo nome que você deseja dar à sua imagem Docker.
 <br><br><br><br>
 
-#### Ambiente local
 
-
-
-##### Dependências
-
-Requerimentos externo do software 
-- Faça download dos coomponentes abaixo 
-- Instale o sistemas
-
-- Python3.12.2
-
-Execute o seguinte comando no terminal 
-
-```bash
-pip 
-```
