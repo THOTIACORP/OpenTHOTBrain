@@ -236,7 +236,7 @@ Também haverá computação quântica em 2025 o sistema estará preparado para 
 <hr>
 
 Você pode clonar esse projeto aqui pelo github como zip ou como forma de clone para desenvolvedores
-- https://github.com/THOTIACORP/I2A2-Challanges-Python.git
+- https://github.com/THOTIACORP/OpenTHOTBrain
 
 <br><br><br><br>
 
