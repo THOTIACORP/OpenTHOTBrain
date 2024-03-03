@@ -251,7 +251,7 @@ Você pode clonar esse projeto aqui pelo github como zip e descompactar na sua p
 <br><br><br><br>
 
 ####  Windowns 
-- Clique duas vezes no aquivo
+- Ambiente Local Nuvem - Clique duas vezes no aquivo
 start.bat
 
 <br><br><br><br>
