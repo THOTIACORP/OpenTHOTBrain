@@ -224,17 +224,13 @@ Se vc pouder doar qualquer quantia  será muito bem vindo e abençoado
 
 ### Projeção de uso computiconal
 <hr>
-A eficiência depende do inteiramente do servidor
+A eficiência de resposta desse códdigo depende inteiramente do servidor. No servidor online o serviço está com a taxa de resposta reduzida conforme a doação aumentar a velocidade aumentará autoescalavel
+<br><br>
+No entanto se vc preferir você pode rodar esse sistema em nó de supercomputadores com container e orquestração desses o que pode torna a resposta muita mais rápida que no próprio sistema online
+<br><br>
+Também haverá computação quântica em 2025 o sistema estará preparado para performar sistema altamente eficiente não se pre-ocupe estamos de olhos nas melhores diretrizes
 
-
-No servidor online o serviço pelo baixo recurso ainda a taxa que deixamos aberta é baixa
-
-
-No entanto você pode rodar esse sistema em nó de supercomputadores com container e orquestração desses o que pode torna a resposta muita mais rápida que no próprio sistema online
-
-
-Também haverá computação quântica em 2025 o sistema estará preparado para performar sistema altamente eficiente 
-
+<br><br><br><br>
 
 ### Dowload do sistema
 <hr>
