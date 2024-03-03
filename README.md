@@ -192,15 +192,15 @@ Você pode gentilmente querer contribuir financeiramente com este projeto, ajuda
 - ✅ [ Contribuições via PIX ] 
 - ✅ Nome: Ronnei Borges Peres
 - ✅ Cargo: Diretor, coordenador e desenvolvedor do projeto OpenTHOTBrain
-- 🔑 Telefone 
+- 🔑 Chave telefone 
 ```bash
 66 996675486
 ```
--  🔑 Copia e cola
+-  🔑 Chave copia e cola
 ```bash
 00020126360014BR.GOV.BCB.PIX0114+55669966754865204000053039865802BR5913Ronnei Borges6013ALTO ARAGUAIA62240520Software de Analises6304D7C4
 ```
-- 🔑 QR Code
+- 🔑 Chave QR Code
 
 </div>
   <div align="center">
@@ -213,11 +213,11 @@ Você pode gentilmente querer contribuir financeiramente com este projeto, ajuda
 #### Porque contribuir 
 <div align="justify">
 Contribuir com o projeto é essencial para ajudar a desenvolver e aprimorar a ferramenta para análise de dados e tomada de decisões informadas
-<br>
+<br><br>
 Caso utilize o software ou têm propenção a auxiliar em grandes causas esse é o projeto correto veja
-<br>
+<br><br>
 Como software é OPEN Source não temos renda desse sistema ele é de uso e implementação gratuita então dependemos inteiramente da comunidade para continuar prestando esses serviços na mais alta qualidade possível; sempre
-<br>
+<br><br>
 Se vc pouder doar qualquer quantia  será muito bem vindo e abençoado 
 <br><br><br><br>
 
