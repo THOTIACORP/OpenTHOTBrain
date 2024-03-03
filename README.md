@@ -182,6 +182,7 @@ Os desenvolvedores podem analisar o sistema e implementar atualizações livreme
 - 
 
 </div>
+<br><br>
 
 #### Contribuindo como patrocinador
 
