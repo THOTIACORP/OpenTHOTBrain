@@ -27,7 +27,7 @@
 
 | ⚠️ **Atenção** | 
 | --- | 
-| Considere gentilmente e fortemente auxiliar o projeto financeiramente para que ele não precise recorrer a propagandas ou outros requisitos semelhantes. Sua doação é um ato de generosidade e gratidão para com a sociedade, permitindo que o conhecimento seja compartilhado livremente. Além disso, doar também enriquece a alma. Se você deseja expressar seu humanismo e racionalidade, [clique aqui e doe para esse projeto social de grande importância, impacto 👈](#informações-para-contribuir) |
+| Considere gentilmente e fortemente auxiliar o projeto financeiramente para que ele não precise recorrer a propagandas ou outros requisitos semelhantes. Sua doação é um ato de generosidade e gratidão para com a sociedade, permitindo que o conhecimento seja compartilhado livremente. Além disso, doar também enriquece a alma. Se você deseja expressar seu humanismo e racionalidade, [👉 clique aqui e doe para esse projeto social de grande importância, impacto 👈](#informações-para-contribuir) |
 
 
 <br><br><br><br>
