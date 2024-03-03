@@ -22,7 +22,8 @@
 <br><br>
 
 > [!WARNING]
->  - ⚠️ Atenção considere gentilmente e fortemente auxiliar financeiramente o projeto para que ele não tenha propagandas ou requisitos dessa mesma natureza entre outros a doação é um ato de generosidade e gratidão para com a sociedade que está no caminho da plenitude compartilhando conhecimento gratuitamente, doar também enriquece a alma- [`Doe expresse seu ato de humanismo e racionalidade para com projetos socias de grande dimensões`](#informações-para-contribuir)
+> ⚠️ Atenção considere gentilmente e fortemente auxiliar financeiramente o projeto para que ele não tenha propagandas ou requisitos dessa mesma natureza 
+> - entre outros a doação é um ato de generosidade e gratidão para com a sociedade que está no caminho da plenitude compartilhando conhecimento gratuitamente, doar também enriquece a alma- [`Doe expresse seu ato de humanismo e racionalidade para com projetos socias de grande dimensões`](#informações-para-contribuir)
 
 
 
