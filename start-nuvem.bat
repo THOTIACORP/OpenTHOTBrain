@@ -26,6 +26,9 @@ if not exist "%ProgramFiles%\Docker\Docker\Docker Desktop Installer.exe" (
     echo Docker já está instalado.
 )
 
+REM Iniciar o Docker
+start "" "%ProgramFiles%\Docker\Docker\Docker Desktop.exe"
+
 REM Verificar e baixar o GitHub Desktop
 if not exist "%AppData%\GitHub Desktop" (
     REM Baixar e instalar o GitHub Desktop
@@ -39,8 +42,20 @@ if not exist "%AppData%\GitHub Desktop" (
 REM Aguardar um tempo para as instalações serem concluídas
 timeout /t 10 /nobreak
 
+REM Clonar o repositório do GitHub na pasta padrão do GitHub Desktop
+
+if not exist "%USERPROFILE%\OneDrive\Documentos\GitHub" (
+    mkdir "%USERPROFILE%\OneDrive\Documentos\GitHub"
+)
+
+cd "%USERPROFILE%\OneDrive\Documentos\GitHub"
+git clone https://github.com/THOTIACORP/OpenTHOTBrain.git
+
+REM Aguardar um tempo para as instalações serem concluídas
+timeout /t 10 /nobreak
+
 REM Verificar se há atualizações no repositório do GitHub
-git pull origin master
+git pull origin main
 
 REM Aguardar um tempo para as instalações serem concluídas
 timeout /t 10 /nobreak
@@ -53,7 +68,7 @@ REM Aguardar um tempo para as instalações serem concluídas
 timeout /t 10 /nobreak
 
 REM Abre o navegador com a página localhost:5000
-start http://localhost:5000
+start http://localhost:5010
 
 REM Mantém o console aberto para que você possa ver os resultados antes de fechar
 pause
