@@ -50,7 +50,7 @@ if not exist "%USERPROFILE%\OneDrive\Documentos\GitHub" (
 
 cd "%USERPROFILE%\OneDrive\Documentos\GitHub"
 git clone https://github.com/THOTIACORP/OpenTHOTBrain.git
-
+cd "%USERPROFILE%\OneDrive\Documentos\GitHub\OpenTHOTBrain"
 REM Aguardar um tempo para as instalações serem concluídas
 timeout /t 10 /nobreak
 
