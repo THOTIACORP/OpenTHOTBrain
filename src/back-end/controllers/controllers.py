@@ -1,8 +1,8 @@
+# controllers/controllers.py
 from flask import Blueprint
 
-controllers = Blueprint('main', __name__)
+controllers_db = Blueprint('controllers', __name__)
 
-@controllers.route('/')
-def index():
-    # Código para a rota principal
-    return 'Hello, world!'  # Exemplo de retorno para a rota principal
+@controllers_db.route('/some_route')
+def some_route():
+    return 'Hello from some_route!'

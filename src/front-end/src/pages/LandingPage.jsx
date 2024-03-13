@@ -43,7 +43,7 @@ export const LandingPage = () => {
           </Col>
         </Row>
         <div style={{ marginTop: '50px', textAlign: 'center' }}>
-          <Button type="primary" size="large">Comece Agora</Button>
+          <Button type="primary" size="large" >Comece Agora</Button>
         </div>
       </Content>
       <Footer style={{ textAlign: 'center' }}>© 2024 Sistema de Análise de Dados</Footer>

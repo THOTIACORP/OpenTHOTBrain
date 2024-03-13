@@ -1,13 +1,12 @@
 import React, { useState } from 'react';
 import { Input, Button } from 'antd';
 
-
 export const DatabaseConfigForm = () => {
   const [databaseConfig, setDatabaseConfig] = useState({
     host: '',
     port: '',
-    databaseName: '',
-    username: '',
+    database: '',
+    user: '',
     password: '',
     dialect: ''
   });
@@ -20,9 +19,22 @@ export const DatabaseConfigForm = () => {
   };
 
   const handleSave = () => {
-    // Aqui você pode enviar os dados do formulário para onde precisar
-    console.log('Database Configuration:', databaseConfig);
-    // Você pode fazer chamadas de API, salvá-los localmente, etc.
+    fetch('http://localhost:5000/connection_db', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(databaseConfig)
+    })
+    .then(response => response.json())
+    .then(data => {
+      console.log('Response from server:', data);
+      // Aqui você pode lidar com a resposta do servidor conforme necessário
+    })
+    .catch(error => {
+      console.error('Error:', error);
+      // Aqui você pode lidar com os erros de requisição
+    });
   };
 
   return (
@@ -42,14 +54,14 @@ export const DatabaseConfigForm = () => {
       <Input
         style={styles.input}
         placeholder="Nome do banco de dados"
-        value={databaseConfig.databaseName}
-        onChange={e => handleChange('databaseName', e.target.value)}
+        value={databaseConfig.database}
+        onChange={e => handleChange('database', e.target.value)}
       />
       <Input
         style={styles.input}
         placeholder="Usuário"
-        value={databaseConfig.username}
-        onChange={e => handleChange('username', e.target.value)}
+        value={databaseConfig.user}
+        onChange={e => handleChange('user', e.target.value)}
       />
       <Input.Password
         style={styles.input}

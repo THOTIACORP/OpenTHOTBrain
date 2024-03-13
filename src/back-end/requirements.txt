@@ -6,6 +6,9 @@ openpyxl
 pyarrow
 seaborn
 Flask
+flask_cors
 Pyparsing
 scipy
 statsmodels
+sqlalchemy
+mysqlclient

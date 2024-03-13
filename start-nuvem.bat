@@ -42,14 +42,15 @@ if not exist "%AppData%\GitHub Desktop" (
 REM Aguardar um tempo para as instalações serem concluídas
 timeout /t 10 /nobreak
 
-REM Clonar o repositório do GitHub na pasta padrão do GitHub Desktop
 
 if not exist "%USERPROFILE%\OneDrive\Documentos\GitHub" (
     mkdir "%USERPROFILE%\OneDrive\Documentos\GitHub"
 )
+REM Clonar o repositório do GitHub na pasta padrão do GitHub Desktop
 
 cd "%USERPROFILE%\OneDrive\Documentos\GitHub"
 git clone https://github.com/THOTIACORP/OpenTHOTBrain.git
+
 cd "%USERPROFILE%\OneDrive\Documentos\GitHub\OpenTHOTBrain"
 REM Aguardar um tempo para as instalações serem concluídas
 timeout /t 10 /nobreak
