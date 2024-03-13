@@ -21,22 +21,10 @@ def connection_db_route():
     
     try:
         # Criar a conexão com o banco de dados e obter os modelos
-        conn, modelos = connection(dados_conexao)
-
-        # Montar a resposta com os modelos criados
-        response_data = {'status': 'success', 'modelos': modelos}
-        
-        # Criar a resposta
-        response = jsonify(response_data)
-        
-        # Adicionar cabeçalhos CORS à resposta
-        response.headers.add('Access-Control-Allow-Origin', 'http://localhost:3003')
-        response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
-        response.headers.add('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS')
-        response.headers.add('Access-Control-Allow-Credentials', 'true')
+        conn, response = connection(dados_conexao)
 
         # Retornar a resposta
-        return response, 200
+        return response
 
     except Exception as e:
         # Em caso de erro, retornar uma resposta de erro com status 500

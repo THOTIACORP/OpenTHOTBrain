@@ -29,7 +29,9 @@ export const DatabaseConfigForm = () => {
     .then(response => response.json())
     .then(data => {
       console.log('Response from server:', data);
-      // Aqui você pode lidar com a resposta do servidor conforme necessário
+     alert("Conectado com sucesso")
+     localStorage.setItem('tabelas_colunas', JSON.stringify(data.tabelas_colunas));
+ 
     })
     .catch(error => {
       console.error('Error:', error);

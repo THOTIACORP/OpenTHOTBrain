@@ -1,5 +1,6 @@
 from sqlalchemy import create_engine, MetaData, Table, Column, Integer
 from sqlalchemy.ext.declarative import declarative_base
+from flask import jsonify
 
 Base = declarative_base()
 
@@ -24,28 +25,19 @@ def connection(dados_conexao):
         metadata = MetaData()
         metadata.reflect(engine)
 
-        # Criar modelos dinamicamente
-        modelos = {}
+        # Criar um dicionário para armazenar as informações das tabelas e colunas
+        tabelas_colunas = {}
         for table_name, table in metadata.tables.items():
-            # Definir o mapeamento de cada tabela para uma classe
-            class_name = table_name.capitalize()
-            class_attrs = {'__tablename__': table_name, '__table__': table}
-            # Adicionar uma coluna 'id' como chave primária se não existir uma chave primária definida
-            if not any(column.primary_key for column in table.columns):
-                class_attrs['id'] = Column(Integer, primary_key=True)
-            
-            # Criar a classe e adicioná-la ao dicionário de modelos
-            new_class = type(class_name, (Base,), class_attrs)
-            modelos[table_name] = new_class
+            # Obter os nomes das colunas da tabela atual
+            colunas = [column.name for column in table.columns]
+            # Adicionar as informações da tabela ao dicionário
+            tabelas_colunas[table_name] = colunas
 
-        # Imprimir informações sobre as tabelas e suas colunas
-        print("Tabelas e suas colunas:")
-        for table_name, model in modelos.items():
-            print(f"Tabela: {table_name}")
-            for column in model.__table__.columns:
-                print(f" - Coluna: {column.name}")
+        # Criar a resposta com as informações das tabelas e colunas
+        response_data = {'status': 'success', 'tabelas_colunas': tabelas_colunas}
+        response = jsonify(response_data)
 
-        return conn, modelos
+        return conn, response
 
     except Exception as e:
         print("Erro ao conectar ao banco de dados:", e)

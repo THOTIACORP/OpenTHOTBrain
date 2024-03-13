@@ -8,9 +8,12 @@ const { Title, Paragraph } = Typography;
 export const LandingPage = () => {
   return (
     <Layout>
-      <Header style={{ backgroundColor: '#001529', padding: '100px 0', textAlign: 'center', display: 'flex', alignItems: 'center' }}>
-  <Title style={{ color: '#fff', marginBottom: "20px", width: "100%" }}>Sistema de Análise de Dados</Title>
-</Header>
+      <Header style={{ backgroundColor: '#001529', padding: '100px 0', textAlign: 'center', display: 'flex', alignItems: 'center', borderRadius:'26px' }}>
+        <Title style={{ color: '#fff', marginBottom: "20px", width: "100%" }}>Sistema de Análise de Dados Automatico 🎲</Title>
+        
+      </Header>
+
+     <p ><h2>&emsp;Descubra suas dores e as dos seus clientes com 1 clique</h2></p> 
 
       <Content style={{ padding: '50px' }}>
         <Row gutter={[16, 16]} justify="center">

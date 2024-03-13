@@ -1,4 +1,4 @@
 # config.py
 class Config:
-    DEBUG = True
+    DEBUG = False
     # Outras configurações

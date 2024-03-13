@@ -1,65 +1,97 @@
 import React, { useState } from 'react';
-import { Breadcrumb, Layout, Menu, theme } from 'antd';
-import { LandingPage } from '../pages/LandingPage';
-import { TextAnalysisPage } from '../pages/TextAnalysisPage';
+import { Layout, Menu, Breadcrumb, List, Input, Divider } from 'antd';
+import { Link } from 'react-router-dom';
+import { SearchOutlined, CrownOutlined, DollarCircleOutlined } from '@ant-design/icons'; // Importe o ícone de pesquisa
+import LandingPage from '../pages/LandingPage';
+import TextAnalysisPage from '../pages/TextAnalysisPage';
 import NumericalAnalysis from '../pages/NumericalAnalysis';
 import DatabaseConfigForm from '../pages/DatabaseConfigForm';
 
-const { Header, Content, Footer } = Layout;
+const { Header, Content, Sider } = Layout;
 
-const navItems = [
-  { key: 'home', label: 'Home', component: <LandingPage /> },
-  { key: 'database', label: 'Data Base', component: <DatabaseConfigForm /> },
-  { key: 'numeric-analysis', label: 'Analysis Numerics', component: <NumericalAnalysis /> },
-  { key: 'text-analysis', label: 'Analysis Text', component: <TextAnalysisPage /> },
-];
+const MenuItems = ({ selectedMenuItem, handleMenuClick }) => {
+  return (
+    <Menu theme="dark" mode="inline" selectedKeys={[selectedMenuItem]} onClick={({ key }) => handleMenuClick(key)}>
+      <Menu.Item key="home"><Link to="/">Home</Link></Menu.Item>
+      <Menu.Item key="database"><Link to="/database">Database</Link></Menu.Item>
+      <Menu.Item key="numeric-analysis"><Link to="/numeric-analysis">Numerical Analysis</Link></Menu.Item>
+      <Menu.Item key="text-analysis"><Link to="/text-analysis">Text Analysis</Link></Menu.Item>
+      <Menu.Item key="text-analysis"><Link to="/text-analysis">Wiki</Link></Menu.Item>
+    </Menu>
+  );
+};
 
-export const Nav = () => {
-  const [selectedMenuItem, setSelectedMenuItem] = useState(navItems[0].key);
+const Routes = ({ selectedMenuItem }) => {
+  return (
+    <Content style={{ margin: '16px' }}>
+      {selectedMenuItem === 'home' && <LandingPage />}
+      {selectedMenuItem === 'database' && <DatabaseConfigForm />}
+      {selectedMenuItem === 'numeric-analysis' && <NumericalAnalysis />}
+      {selectedMenuItem === 'text-analysis' && <TextAnalysisPage />}
+    </Content>
+  );
+};
 
-  const handleMenuClick = (e) => {
-    setSelectedMenuItem(e.key);
+const Nav = () => {
+  const [selectedMenuItem, setSelectedMenuItem] = useState('home');
+  const [searchText, setSearchText] = useState('');
+
+  const handleMenuClick = (key) => {
+    setSelectedMenuItem(key);
   };
 
-  const renderComponent = () => {
-    const selectedItem = navItems.find(item => item.key === selectedMenuItem);
-    return selectedItem ? selectedItem.component : null;
+  const handleSearchChange = (e) => {
+    setSearchText(e.target.value.toLowerCase());
   };
 
-  const {
-    token: { colorBgContainer, borderRadiusLG },
-  } = theme.useToken();
+  const filteredItems = ['home', 'database', 'numeric-analysis', 'text-analysis']
+    .filter((item) => item.includes(searchText));
 
   return (
-    <Layout>
-      <Header style={{ display: 'flex', alignItems: 'center' }}>
-        <div className="demo-logo" />
-        <Menu
-          theme="dark"
-          mode="horizontal"
-          selectedKeys={[selectedMenuItem]}
-          onClick={handleMenuClick}
-        >
-          {navItems.map(item => (
-            <Menu.Item key={item.key}>
-              {item.label}
-            </Menu.Item>
-          ))}
-        </Menu>
-      </Header>
-      <Content style={{ padding: '0 48px' }}>
-        <Breadcrumb style={{ margin: '16px 0' }}>
-          {navItems.map(item => (
-            <Breadcrumb.Item key={item.key}>
-              {item.label}
+    <Layout style={{ minHeight: '100vh' }}>
+     <Header style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+  <div className="demo-logo" />
+  <div style={{ flex: 1, display: 'flex', justifyContent: 'start', marginLeft:'-45px' }}>
+    <Input
+      type="text"
+      placeholder="Search..."
+      value={searchText}
+      onChange={handleSearchChange}
+      style={{ width: '400px', marginRight: '26px', height: '50px' }}
+      prefix={<SearchOutlined />}
+    />
+  </div>
+  <Menu
+    theme="dark"
+    mode="horizontal"
+    selectedKeys={[selectedMenuItem]}
+    onClick={({ key }) => handleMenuClick(key)}
+    style={{ minWidth: 0 }}
+  >
+    <Menu.Item key="adquirir-premium" icon={<CrownOutlined />}>
+      <Link to="/adquirir-premium">Adquirir Premium</Link>
+    </Menu.Item>
+    <Menu.Item key="fazer-doacao" icon={<DollarCircleOutlined />}>
+      <Link to="/fazer-doacao">Fazer Doação</Link>
+    </Menu.Item>
+  </Menu>
+</Header>
+
+      <Layout>
+        <Sider>
+          <MenuItems selectedMenuItem={selectedMenuItem} handleMenuClick={handleMenuClick} />
+        </Sider>
+        <Layout>
+          <Breadcrumb style={{ margin: '23px 30px' }}>
+            <Breadcrumb.Item>
+              <Link to="/">{selectedMenuItem.charAt(0).toUpperCase() + selectedMenuItem.slice(1)}</Link>
             </Breadcrumb.Item>
-          ))}
-        </Breadcrumb>
-        <div style={{ background: colorBgContainer, minHeight: 280, padding: 24, borderRadius: borderRadiusLG }}>
-          {renderComponent()}
-        </div>
-      </Content>
-      <Footer style={{ textAlign: 'center' }}>Ant Design ©{new Date().getFullYear()} Created by Ant UED</Footer>
+          </Breadcrumb>
+          <Divider type="vertical" style={{ background: '#000', height: '2px', margin: '0 18px' }} />
+
+          <Routes selectedMenuItem={selectedMenuItem} />
+        </Layout>
+      </Layout>
     </Layout>
   );
 };

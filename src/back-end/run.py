@@ -1,7 +1,26 @@
+import os
+import shutil
+import glob
 from flask import Flask
 from flask_cors import CORS
 from config import connection_db, test_connection_db
 from controllers import controllers_db
+
+# Função para limpar arquivos .pyc recursivamente em todos os diretórios
+def limpar_pyc():
+    for file in glob.glob('**/*.pyc', recursive=True):
+        os.remove(file)
+
+# Função para remover diretórios __pycache__ recursivamente em todos os diretórios
+def remover_pycache():
+    for root, dirs, _ in os.walk('.', topdown=False):
+        for name in dirs:
+            if name == '__pycache__':
+                shutil.rmtree(os.path.join(root, name))
+
+# Limpar arquivos .pyc antes de iniciar o aplicativo
+limpar_pyc()
+remover_pycache()
 
 app = Flask(__name__)
 CORS(app, resources={r"/connection_db": {"origins": "http://localhost:3003"}}, supports_credentials=True)
