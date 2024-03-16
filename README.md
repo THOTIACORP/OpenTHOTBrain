@@ -8,6 +8,7 @@
 <br><br>
 <div align="justify">
 
+- ✅ Descubra suas dores e a de seus clientes com um clique
 
 - ✅ Transformando dados em resultados. O poder em suas mãos
   
