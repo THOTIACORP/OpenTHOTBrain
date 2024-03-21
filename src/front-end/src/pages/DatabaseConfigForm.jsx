@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Input, Button } from 'antd';
+import Nav from '../components/Nav';
 
 export const DatabaseConfigForm = () => {
   const [databaseConfig, setDatabaseConfig] = useState({
@@ -19,27 +20,31 @@ export const DatabaseConfigForm = () => {
   };
 
   const handleSave = () => {
-    fetch('http://localhost:5000/connection_db', {
+    fetch('http://localhost:5000/correlation', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify(databaseConfig)
     })
-    .then(response => response.json())
-    .then(data => {
-      console.log('Response from server:', data);
-     alert("Conectado com sucesso")
-     localStorage.setItem('tabelas_colunas', JSON.stringify(data.tabelas_colunas));
- 
-    })
-    .catch(error => {
-      console.error('Error:', error);
-      // Aqui você pode lidar com os erros de requisição
-    });
+      .then(response => response.json())
+      .then(data => {
+        console.log('Response from server:', data);
+        alert("Conectado com sucesso")
+        localStorage.setItem('tabelas_colunas', JSON.stringify(data.correlation));
+        // window.location.href = './TipoAnalise'
+
+      })
+      .catch(error => {
+        console.error('Error:', error);
+        // Aqui você pode lidar com os erros de requisição
+      });
   };
 
   return (
+  
+  <Nav render={<>
+
     <div style={styles.container}>
       <Input
         style={styles.input}
@@ -79,6 +84,7 @@ export const DatabaseConfigForm = () => {
       />
       <Button type="primary" onClick={handleSave}>Salvar</Button>
     </div>
+  </>}/>
   );
 };
 

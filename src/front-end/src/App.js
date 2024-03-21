@@ -1,13 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-import Nav from './components/Nav';
+import React from "react";
+import "./App.css";
+import AppRoutes from "./routes/routes";
+import { ConfigProvider } from "antd";
 
-function App() {
+export function App() {
   return (
-    <>
-      <Nav/>
-
-    </>
+    <div className="App">
+      <ConfigProvider >
+        <AppRoutes />
+      </ConfigProvider>
+    </div>
   );
 }
 
